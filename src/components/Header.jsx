@@ -1,5 +1,7 @@
-import Link from "next/link";
+import { Link } from "react-scroll";
 import { useState } from "react";
+import { links } from "@/utils/links";
+import { Sidebar } from ".";
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -18,41 +20,42 @@ const Header = () => {
 
         {/* header links for large screen */}
         <div className="hidden lg:flex items-center gap-8 xl:gap-20">
-          <Link href="/" className="link">
-            <p>Home</p>
-            <img src="/home.png" alt="home" className="linkImage" />
-          </Link>
-          <Link href="/program" className="link">
-            <p>Program</p>
-            <img src="/program.png" alt="program" className="linkImage" />
-          </Link>
-          <Link href="/schedule" className="link">
-            <p>Schedule</p>
-            <img src="/schedule.png" alt="schedule" className="linkImage" />
-          </Link>
-          <Link href="/information" className="link">
-            <p>Information</p>
-            <img src="/info.png" alt="information" className="linkImage" />
-          </Link>
-          <Link href="/about-us" className="link">
-            <p>About Us</p>
-            <img src="/about-us.png" alt="about-us" className="linkImage" />
-          </Link>
-          <Link href="/contact-us" className="link">
-            <p>Contact Us</p>
-            <img src="/contact.png" alt="contact-us" className="linkImage" />
-          </Link>
+          {links.map((link) => (
+            <div key={link.id}>
+              <Link
+                offset={link.title === "Home" ? -75 : -10}
+                smooth={true}
+                duration={500}
+                style={{ cursor: "pointer" }}
+                to={link.title}
+                className="link"
+              >
+                <p>{link.title}</p>
+                <img src={link.image} alt="link" className="linkImage" />
+              </Link>
+            </div>
+          ))}
         </div>
 
         {/* small screen menu icon */}
         <img
           src="/menu.png"
           alt="menu-icon"
-          className="w-[100px] h-[80px] lg:hidden"
+          className="w-[50px] h-[40px] lg:hidden cursor-pointer hover:scale-[1.03]"
+          onClick={() => setIsSidebarOpen((prev) => !prev)}
         />
       </div>
+
       {/* sidebar links for small screen */}
-      <div className={`fixed top-0 bottom-0 w-[200px] left-0 lg:hidden`}></div>
+      <div
+        className={`fixed top-0 bottom-0 w-[200px] px-8 shadow-md bg-[#e4e4e4] left-0 lg:hidden pt-[110px] md:pt-[130px] ${
+          isSidebarOpen
+            ? "left-0 ease-in-out duration-[0.7s]"
+            : "left-[-999px] ease-in-out duration-1000"
+        }`}
+      >
+        <Sidebar />
+      </div>
     </section>
   );
 };

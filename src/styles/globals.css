@@ -4,13 +4,13 @@
 
 @layer components {
   .linkImage {
-    @apply w-[60px] h-[50px];
+    @apply lg:w-[60px] lg:h-[50px] w-[40px] h-[30px];
   }
 
   .link {
     @apply flex flex-col items-center hover:scale-105 gap-2 hover:text-[#297b98] text-[#872285];
   }
   .link > p {
-    @apply font-semibold font-serif;
+    @apply font-serif font-[12px] lg:font-semibold;
   }
 }

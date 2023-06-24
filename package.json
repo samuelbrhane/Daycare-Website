@@ -10,11 +10,16 @@
   },
   "dependencies": {
     "@next/font": "13.4.7",
+    "axios": "^1.4.0",
     "eslint": "8.43.0",
     "eslint-config-next": "13.4.7",
+    "framer-motion": "^9.0.7",
     "next": "13.4.7",
+    "nodemailer": "^6.9.1",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "react-scroll": "^1.8.9",
+    "react-scrollspy": "^3.4.3"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
