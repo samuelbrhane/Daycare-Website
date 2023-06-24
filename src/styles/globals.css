@@ -31,7 +31,7 @@
   }
 
   .heroContainer {
-    @apply w-full h-[170px] md:h-[330px] lg:h-[430px] xl:h-[540px] 2xl:h-[590px] bg-white;
+    @apply w-full h-[160px] md:h-[330px] lg:h-[430px] xl:h-[540px] 2xl:h-[590px] bg-white;
   }
   .heroImage {
     @apply w-full h-full;

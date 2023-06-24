@@ -2,7 +2,7 @@ import { FirstHero, HeroIntro, SecondHero, ThirdHero } from ".";
 
 const Hero = () => {
   return (
-    <div className="pt-[90px] md:pt-[100px] lg:pt-[120px]">
+    <div id="Home" className="pt-[90px] md:pt-[100px] lg:pt-[120px]">
       <div id="myCarousel" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
           <li

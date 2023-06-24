@@ -24,7 +24,7 @@ const SecondHero = () => {
           transition={{
             duration: 0.5,
           }}
-          className="relative mt-4 bg-gradient-to-l max-w-[400px] from-[#09cec4] via-[#e317cf] to-[#34cf1c] rounded text-center mb-2 md:mb-3 xl:mb-5 py-4 md:py-6 lg:py-10 xl:py-14 px-4"
+          className="relative mt-4 bg-gradient-to-l max-w-[400px] from-[#09cec4] via-[#e317cf] to-[#34cf1c] rounded text-center mb-2 md:mb-3 xl:mb-5 py-2 md:py-6 lg:py-10 xl:py-14 px-4"
         >
           <h1 className="font-bold text-lg md:text-xl lg:text-[20px] xl:text-[30px] 2xl:text-[40px] text-white font-[Kablammo]">
             ENRICH MINDS
@@ -37,13 +37,13 @@ const SecondHero = () => {
           transition={{
             duration: 1,
           }}
-          className="relative w-full flex items-center justify-center pt-4 md:pt-10 lg:pt-20"
+          className="relative w-full flex items-center justify-center md:pt-10 lg:pt-20"
         >
           <div className="text-center bg-[#43330a81] py-2 md:py-4 lg:py-8 px-5 rounded flex flex-col">
-            <h1 className="font-[Lora] text-lg md:text-xl xl:text-4xl 2xl:text-[32px] font-bold uppercase text-[#34daec]">
+            <h1 className="font-[Lora] text-sm md:text-xl xl:text-4xl 2xl:text-[32px] font-bold uppercase text-[#34daec]">
               Learn through discovery & experience
             </h1>
-            <div className="text-sm md:text-lg xl:text-2xl 2xl:text-3xl lg:mt-6 text-white italic font-[Lobster]">
+            <div className="text-[8px] md:text-lg xl:text-2xl 2xl:text-3xl lg:mt-6 text-white italic font-[Lobster]">
               <p>
                 we have a Infant, Toddler, Preschool and School age program with
                 interesting ways of learning.

@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Header, Hero } from "@/components";
+import { Header, Hero, Program } from "@/components";
 
 export default function Home() {
   return (
@@ -36,6 +36,7 @@ export default function Home() {
       <main className="overflow-hidden">
         <Header />
         <Hero />
+        <Program />
       </main>
     </>
   );

@@ -36,10 +36,10 @@ const HeroIntro = () => {
         </motion.div>
 
         <motion.h1
-          initial={{ left: -300 }}
+          initial={{ left: -100 }}
           whileInView={{ left: 0 }}
           transition={{
-            duration: 1.5,
+            duration: 1,
           }}
           className="relative font-bold text-lg md:text-xl xl:text-4xl 2xl:text-[38px] font-[Lora] italic mb-2 md:mb-3 xl:mb-5"
         >
@@ -50,10 +50,10 @@ const HeroIntro = () => {
 
         {/* enrollmentTitle */}
         <motion.div
-          initial={{ left: -300 }}
+          initial={{ left: -100 }}
           whileInView={{ left: 0 }}
           transition={{
-            duration: 1.5,
+            duration: 1,
           }}
           className="relative font-bold text-lg md:text-xl xl:text-4xl 2xl:text-[22px] flex flex-col mb-2 font-[Lora] italic"
         >
