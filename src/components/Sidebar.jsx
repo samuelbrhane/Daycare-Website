@@ -4,7 +4,7 @@ import { Link } from "react-scroll";
 
 const Sidebar = () => {
   return (
-    <div className="flex flex-col items-center gap-6">
+    <div className="flex flex-col items-center gap-10">
       {links.map((link) => (
         <div key={link.id}>
           <Link

@@ -1,16 +1,56 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* Kablammo */
+/* Abril Fatface */
+/* Chakra Petch */
+/* Lilita One */
+/* Lobster */
+/* Tilt Prism */
+
+@layer base {
+  a {
+    text-decoration: none !important;
+  }
+}
 
 @layer components {
   .linkImage {
     @apply lg:w-[60px] lg:h-[50px] w-[40px] h-[30px];
   }
 
+  .links {
+    @apply lg:flex items-center gap-20 xl:gap-24;
+  }
+
   .link {
     @apply flex flex-col items-center hover:scale-105 gap-2 hover:text-[#297b98] text-[#872285];
   }
   .link > p {
-    @apply font-serif font-[12px] lg:font-semibold;
+    @apply font-[12px] lg:font-semibold font-[Lobster];
+  }
+
+  .heroContainer {
+    @apply w-full h-[170px] md:h-[330px] lg:h-[430px] xl:h-[540px] 2xl:h-[590px] bg-white;
+  }
+  .heroImage {
+    @apply w-full h-full;
+  }
+
+  .heroText {
+    @apply px-24 md:px-48 lg:px-64 xl:px-80;
+  }
+
+  .heroTitle {
+    @apply font-bold text-xl md:text-3xl lg:text-[30px] xl:text-[40px] 2xl:text-[60px] text-[#a234a3] mb-10 2xl:mb-16;
+  }
+
+  .links {
+    display: none;
+  }
+  @media (min-width: 1028px) {
+    .links {
+      display: flex;
+    }
   }
 }
