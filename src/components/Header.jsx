@@ -19,7 +19,7 @@ const Header = () => {
         </div>
 
         {/* header links for large screen */}
-        <div className="hidden lg:flex items-center gap-8 xl:gap-20">
+        <div className="links">
           {links.map((link) => (
             <div key={link.id}>
               <Link
@@ -48,7 +48,7 @@ const Header = () => {
 
       {/* sidebar links for small screen */}
       <div
-        className={`fixed top-0 bottom-0 w-[200px] px-8 shadow-md bg-[#e4e4e4] left-0 lg:hidden pt-[110px] md:pt-[130px] ${
+        className={`fixed z-40 top-0 bottom-0 w-[200px] px-8 shadow-md bg-[#e4e4e4] left-0 lg:hidden pt-[110px] md:pt-[130px] ${
           isSidebarOpen
             ? "left-0 ease-in-out duration-[0.7s]"
             : "left-[-999px] ease-in-out duration-1000"
