@@ -12,6 +12,7 @@ const Hero = () => {
           ></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
           <li data-target="#myCarousel" data-slide-to="2"></li>
+          <li data-target="#myCarousel" data-slide-to="3"></li>
         </ol>
 
         <div className="carousel-inner">
