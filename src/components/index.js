@@ -6,3 +6,6 @@ export { default as FirstHero } from "./FirstHero";
 export { default as SecondHero } from "./SecondHero";
 export { default as ThirdHero } from "./ThirdHero";
 export { default as Program } from "./Program";
+export { default as ProgramContent } from "./ProgramContent";
+export { default as Information } from "./Information";
+export { default as Facilities } from "./Facilities";
