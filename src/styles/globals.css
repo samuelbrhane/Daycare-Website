@@ -31,7 +31,7 @@
   }
 
   .heroContainer {
-    @apply w-full h-[160px] md:h-[330px] lg:h-[430px] xl:h-[540px] 2xl:h-[590px] bg-white;
+    @apply w-full h-[182px] md:h-[330px] lg:h-[430px] xl:h-[540px] 2xl:h-[590px] bg-white;
   }
   .heroImage {
     @apply w-full h-full;
@@ -48,6 +48,15 @@
   .links {
     display: none;
   }
+
+  .title {
+    @apply font-[Lobster] text-[30px] 2xl:text-[40px] mb-4 md:mb-6 lg:mb-8;
+  }
+
+  .subtitle {
+    @apply font-[Lora] font-bold italic text-[24px] 2xl:text-[30px] mb-4;
+  }
+
   @media (min-width: 1028px) {
     .links {
       display: flex;

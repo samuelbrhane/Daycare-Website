@@ -14,7 +14,8 @@ const ThirdHero = () => {
           className="relative font-bold font-[Lobster] text-lg md:text-2xl lg:text-[24px] text-white xl:text-[30px] 2xl:text-[50px] flex flex-col  mb-2 md:mb-3 xl:mb-5"
         >
           <h1>
-            Learning Though <span className="text-[#ef38e6]">Discovery &</span>{" "}
+            Exceptional Preschool{" "}
+            <span className="text-[#ef38e6]">Education &</span>{" "}
           </h1>
         </motion.div>
 
@@ -24,10 +25,10 @@ const ThirdHero = () => {
           transition={{
             duration: 0.5,
           }}
-          className="relative mt-4 bg-gradient-to-l max-w-[400px] from-[#09cec4] via-[#e317cf] to-[#34cf1c] rounded text-center mb-2 md:mb-3 xl:mb-5 py-2 md:py-6 lg:py-10 xl:py-14 px-4"
+          className="relative mt-4 bg-gradient-to-l w-[150px] md:w-[250px] lg:w-[300px] xl:w-[400px] from-[#09cec4] via-[#e317cf] to-[#34cf1c] rounded text-center mb-2 md:mb-3 xl:mb-5 py-2 md:py-6 lg:py-10 xl:py-14 px-4"
         >
           <h1 className="font-bold text-lg md:text-xl lg:text-[20px] xl:text-[30px] 2xl:text-[40px] text-white font-[Kablammo]">
-            EXPERIENCE
+            CHILD CARE
           </h1>
         </motion.div>
 
