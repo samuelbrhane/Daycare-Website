@@ -118,7 +118,7 @@ const ProgramContent = () => {
         <div className="flex justify-center rounded-xl">
           <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px] rounded-full border-[10px] border-[#6534ed79] hover:border-[#6534ed] overflow-hidden">
             <img
-              src="/program1.jpg"
+              src="https://images.unsplash.com/photo-1587616211892-f743fcca64f9?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjB8fGRheWNhcmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
               alt="program"
               className="h-full w-full hover:scale-105"
             />
@@ -127,7 +127,7 @@ const ProgramContent = () => {
 
         <div className="w-[180px] h-[180px] md:w-[240px] md:h-[240px] 2xl:w-[280px] 2xl:h-[280px] overflow-hidden rounded-full border-[10px] border-[#34ede479] hover:border-[#34ede4] hover:scale-[1.01] absolute bottom-[-50px] md:top-[250px] xl:top-[300px] 2xl:top-[350px] left-10">
           <img
-            src="/program2.jpg"
+            src="https://images.pexels.com/photos/1148998/pexels-photo-1148998.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="program"
             className="h-full w-full hover:scale-105"
           />
@@ -135,7 +135,7 @@ const ProgramContent = () => {
 
         <div className="w-[180px] h-[180px] md:w-[240px] md:h-[240px] 2xl:w-[280px] 2xl:h-[280px] rounded-full border-[10px] border-[#34ede479] hover:border-[#34ede4] hover:scale-[1.01] absolute bottom-[-50px] md:top-[250px] xl:top-[300px] 2xl:top-[350px] right-10 overflow-hidden">
           <img
-            src="/program3.jpg"
+            src="https://images.pexels.com/photos/1001914/pexels-photo-1001914.jpeg?auto=compress&cs=tinysrgb&w=600"
             alt="program"
             className="h-full w-full hover:scale-105"
           />

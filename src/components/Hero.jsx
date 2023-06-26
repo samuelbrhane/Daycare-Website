@@ -17,22 +17,38 @@ const Hero = () => {
 
         <div className="carousel-inner">
           <div className="item active heroContainer relative">
-            <img src="/hero1.jpg" alt="hero" className="heroImage" />
+            <img
+              src="https://www.pexels.com/photo/girl-in-red-dress-3661553/"
+              alt="hero"
+              className="heroImage"
+            />
             <HeroIntro />
           </div>
 
           <div className="item heroContainer">
-            <img src="/hero2.jpg" alt="hero" className="heroImage" />
+            <img
+              src="https://images.unsplash.com/photo-1615489548573-8165c2c35e1b?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MjV8fGRheWNhcmV8ZW58MHx8MHx8fDA%3D&auto=format&fit=crop&w=500&q=60"
+              alt="hero"
+              className="heroImage"
+            />
             <FirstHero />
           </div>
 
           <div className="item heroContainer">
-            <img src="/hero3.jpg" alt="hero" className="heroImage" />
+            <img
+              src="https://images.pexels.com/photos/3662667/pexels-photo-3662667.jpeg?auto=compress&cs=tinysrgb&w=600"
+              alt="hero"
+              className="heroImage"
+            />
             <SecondHero />
           </div>
 
           <div className="item heroContainer">
-            <img src="/hero4.jpg" alt="hero" className="heroImage" />
+            <img
+              src="https://images.unsplash.com/photo-1567746455504-cb3213f8f5b8?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8ZGF5Y2FyZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60"
+              alt="hero"
+              className="heroImage"
+            />
             <ThirdHero />
           </div>
         </div>
