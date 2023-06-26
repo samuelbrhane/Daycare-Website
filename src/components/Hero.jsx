@@ -18,7 +18,7 @@ const Hero = () => {
         <div className="carousel-inner">
           <div className="item active heroContainer relative">
             <img
-              src="https://www.pexels.com/photo/girl-in-red-dress-3661553/"
+              src="https://images.pexels.com/photos/3661553/pexels-photo-3661553.jpeg?auto=compress&cs=tinysrgb&w=600"
               alt="hero"
               className="heroImage"
             />
