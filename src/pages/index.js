@@ -39,6 +39,13 @@ export default function Home() {
         <Program />
         <Information />
         <About />
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3939.973344989569!2d38.860547274672776!3d9.066192590996614!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x164b852e7090e477%3A0x7269a2c279e47924!2zRmFtaWx5IERheWNhcmUg4Y2L4Yia4YiKIOGLqOGIheGNg-GKk-GJtSDhiJvhiYbhi6s!5e0!3m2!1sen!2set!4v1688388730391!5m2!1sen!2set"
+          className="w-full h-[500px]"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
       </main>
     </>
   );
