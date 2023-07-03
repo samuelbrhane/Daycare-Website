@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { Header, Hero, Information, Program } from "@/components";
+import { About, Header, Hero, Information, Program } from "@/components";
 
 export default function Home() {
   return (
@@ -38,6 +38,7 @@ export default function Home() {
         <Hero />
         <Program />
         <Information />
+        <About />
       </main>
     </>
   );
