@@ -1,5 +1,5 @@
 import React from "react";
-import { Facilities, ProgramContent } from ".";
+import { Classes, Facilities, Schedules } from ".";
 
 const Information = () => {
   return (
@@ -11,9 +11,9 @@ const Information = () => {
       />
 
       <div className="bg-[url('/blog-bg.png')] w-full">
-        <div className="px-4 md:px-12 lg:px-16 xl:px-20 py-12 md:py-20 lg:py-32 xl:py-36">
+        <div className="py-12 md:py-20 lg:py-32 xl:py-36">
           {/* intro */}
-          <div className="mb-16">
+          <div className="mb-16 px-4 md:px-12 lg:px-16 xl:px-20">
             <h1 className="text-[#d83fbf] title text-center md:px-20 lg:px-40 xl:px-56">
               Information <span className="text-black">Center</span>
             </h1>
@@ -27,6 +27,12 @@ const Information = () => {
 
           {/* school facilities */}
           <Facilities />
+
+          {/* school classes */}
+          <Classes />
+
+          {/* schedules */}
+          <Schedules />
         </div>
       </div>
     </section>

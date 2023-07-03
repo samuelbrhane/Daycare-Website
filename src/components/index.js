@@ -9,3 +9,5 @@ export { default as Program } from "./Program";
 export { default as ProgramContent } from "./ProgramContent";
 export { default as Information } from "./Information";
 export { default as Facilities } from "./Facilities";
+export { default as Classes } from "./Classes";
+export { default as Schedules } from "./Schedules";
