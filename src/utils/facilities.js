@@ -6,6 +6,7 @@ export const facilities = [
     image: "/library.png",
     mainColor: "bg-[#B6B007]",
     hoverColor: "group-hover:bg-[#F1F13E60]",
+    duration: 0.25,
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const facilities = [
     image: "/art.png",
     mainColor: "bg-[#930B85]",
     hoverColor: "group-hover:bg-[#ED75E160]",
+    duration: 0.5,
   },
   {
     id: 3,
@@ -22,7 +24,9 @@ export const facilities = [
     image: "/canteen.png",
     mainColor: "bg-[#04894F]",
     hoverColor: "group-hover:bg-[#63FCB960]",
+    duration: 0.75,
   },
+
   {
     id: 4,
     title: "Playground",
@@ -30,5 +34,6 @@ export const facilities = [
     image: "/playground.png",
     mainColor: "bg-[#0C06B8]",
     hoverColor: "group-hover:bg-[#A3A0F160]",
+    duration: 1,
   },
 ];
