@@ -14,11 +14,11 @@ export const links = [
     title: "Information",
     image: "/info.png",
   },
-  {
-    id: 7,
-    title: "Testimonials",
-    image: "/testimonial.png",
-  },
+  // {
+  //   id: 7,
+  //   title: "Testimonials",
+  //   image: "/testimonial.png",
+  // },
 
   {
     id: 5,

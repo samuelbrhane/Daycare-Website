@@ -11,9 +11,9 @@ const Information = () => {
       />
 
       <div className="bg-[url('/blog-bg.png')] w-full">
-        <div className="py-12 md:py-20 lg:py-32 xl:py-36">
+        <div className="pt-12 md:pt-20 lg:pt-32 xl:pt-36">
           {/* intro */}
-          <div className="mb-16 px-4 md:px-12 lg:px-16 xl:px-20">
+          <div className="mb-16">
             <h1 className="text-[#d83fbf] title text-center md:px-20 lg:px-40 xl:px-56">
               Information <span className="text-black">Center</span>
             </h1>
