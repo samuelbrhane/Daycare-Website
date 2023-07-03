@@ -13,3 +13,4 @@ export { default as Classes } from "./Classes";
 export { default as Schedules } from "./Schedules";
 export { default as About } from "./About";
 export { default as VisionMission } from "./VisionMission";
+export { default as AboutContent } from "./AboutContent";

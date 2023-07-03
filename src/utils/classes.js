@@ -7,6 +7,7 @@ export const classes = [
     age: "3-5 years",
     time: "3-4 AM",
     capacity: "20 Kids",
+    duration: 0.15,
   },
   {
     id: 2,
@@ -16,6 +17,7 @@ export const classes = [
     age: "3-5 years",
     time: "3-4 AM",
     capacity: "20 Kids",
+    duration: 0.35,
   },
   {
     id: 3,
@@ -25,6 +27,7 @@ export const classes = [
     age: "3-5 years",
     time: "3-4 AM",
     capacity: "20 Kids",
+    duration: 0.55,
   },
   {
     id: 4,
@@ -34,6 +37,7 @@ export const classes = [
     age: "3-5 years",
     time: "3-4 AM",
     capacity: "20 Kids",
+    duration: 0.15,
   },
   {
     id: 5,
@@ -43,6 +47,7 @@ export const classes = [
     age: "3-5 years",
     time: "3-4 AM",
     capacity: "20 Kids",
+    duration: 0.35,
   },
   {
     id: 6,
@@ -52,5 +57,6 @@ export const classes = [
     age: "3-5 years",
     time: "3-4 AM",
     capacity: "20 Kids",
+    duration: 0.55,
   },
 ];
