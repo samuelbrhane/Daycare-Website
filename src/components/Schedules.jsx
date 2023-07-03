@@ -1,20 +1,30 @@
 import { schedules } from "@/utils/schedules";
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 const Schedules = () => {
   return (
     <div>
       <div className="px-4 md:px-12 lg:px-16 xl:px-20">
-        <h1 className="subtitle">
-          School <span className="text-[#e75842]">Schedules</span>
-        </h1>
-        <p className="font-[Lora] italic font-bold max-w-[400px]">
-          We are delighted to offer a daycare program that caters to children of
-          different age groups. Our daycare provides a nurturing and stimulating
-          environment for infants, toddlers, preschoolers, and school-age
-          children
-        </p>
+        <motion.div
+          className="relative"
+          initial={{ left: -50 }}
+          whileInView={{ left: 0 }}
+          transition={{
+            duration: 1,
+          }}
+        >
+          <h1 className="subtitle">
+            School <span className="text-[#e75842]">Schedules</span>
+          </h1>
+          <p className="font-[Lora] italic font-bold max-w-[400px]">
+            We are delighted to offer a daycare program that caters to children
+            of different age groups. Our daycare provides a nurturing and
+            stimulating environment for infants, toddlers, preschoolers, and
+            school-age children
+          </p>
+        </motion.div>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 mt-8">
         {schedules.map((schedule, index) => {

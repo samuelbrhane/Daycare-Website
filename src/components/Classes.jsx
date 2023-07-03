@@ -1,17 +1,27 @@
 import { classes } from "@/utils/classes";
 import Image from "next/image";
 import React from "react";
+import { motion } from "framer-motion";
 
 const Classes = () => {
   return (
     <div className="px-4 md:px-12 lg:px-16 xl:px-20">
-      <h1 className="subtitle">
-        School <span className="text-[#e75842]">Classes</span>
-      </h1>
-      <p className="font-[Lora] italic font-bold max-w-[400px]">
-        Explore the diverse range of classes offered at our daycare, where
-        children can engage in a variety of educational and creative pursuits.
-      </p>
+      <motion.div
+        className="relative"
+        initial={{ left: -50 }}
+        whileInView={{ left: 0 }}
+        transition={{
+          duration: 1,
+        }}
+      >
+        <h1 className="subtitle">
+          School <span className="text-[#e75842]">Classes</span>
+        </h1>
+        <p className="font-[Lora] italic font-bold max-w-[400px]">
+          Explore the diverse range of classes offered at our daycare, where
+          children can engage in a variety of educational and creative pursuits.
+        </p>
+      </motion.div>
 
       <div className="mt-4 md:mt-6 lg:mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
         {classes.map((item) => {
@@ -20,7 +30,14 @@ const Classes = () => {
               key={item.id}
               className="flex items-center justify-center mb-8 md:mb-12"
             >
-              <div className="hover:scale-[1.02]">
+              <motion.div
+                className="hover:scale-[1.02] relative"
+                initial={{ bottom: -150 }}
+                whileInView={{ bottom: 0 }}
+                transition={{
+                  duration: item.duration,
+                }}
+              >
                 <div className="w-[300px] h-[300px] rounded-full overflow-hidden z-20 border-[#eee5623c] border-[10px]">
                   <Image
                     src={item.image}
@@ -55,7 +72,7 @@ const Classes = () => {
                     </div>
                   </div>
                 </div>
-              </div>
+              </motion.div>
             </div>
           );
         })}

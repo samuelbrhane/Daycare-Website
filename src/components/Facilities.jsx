@@ -6,20 +6,29 @@ import { motion } from "framer-motion";
 const Facilities = () => {
   return (
     <div className="px-4 md:px-12 lg:px-16 xl:px-20">
-      <h1 className="subtitle">
-        School <span className="text-[#e75842]">Facilities</span>
-      </h1>
-      <p className="font-[Lora] italic font-bold max-w-[400px]">
-        Discover our school facilities, including a library, art room, healthy
-        canteen and outdoor playground, which offer endless opportunities for
-        exploration and discovery.
-      </p>
+      <motion.div
+        className="relative"
+        initial={{ left: -50 }}
+        whileInView={{ left: 0 }}
+        transition={{
+          duration: 1,
+        }}
+      >
+        <h1 className="subtitle">
+          School <span className="text-[#e75842]">Facilities</span>
+        </h1>
+        <p className="font-[Lora] italic font-bold max-w-[400px]">
+          Discover our school facilities, including a library, art room, healthy
+          canteen and outdoor playground, which offer endless opportunities for
+          exploration and discovery.
+        </p>
+      </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-8 xl:gap-12 py-16">
         {facilities.map((facility) => {
           return (
             <motion.div
-              initial={{ bottom: -350, opacity: 0 }}
+              initial={{ bottom: -150, opacity: 0 }}
               whileInView={{ bottom: 0, opacity: 1 }}
               transition={{
                 duration: facility.duration,

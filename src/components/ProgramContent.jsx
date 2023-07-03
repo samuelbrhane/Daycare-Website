@@ -1,13 +1,21 @@
 import Image from "next/image";
 import React from "react";
 import { AiOutlineRight } from "react-icons/ai";
+import { motion } from "framer-motion";
 
 const ProgramContent = () => {
   return (
     <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 xl:gap-20 2xl:gap-28 w-full px-4 md:px-12 lg:px-16 xl:px-20 py-12 md:py-20 lg:py-32 xl:py-36">
       {/* program content */}
-      <div className="">
-        <h1 className="text-[#d83fbf] title">
+      <motion.div
+        className="relative"
+        initial={{ left: -50 }}
+        whileInView={{ left: 0 }}
+        transition={{
+          duration: 1,
+        }}
+      >
+        <h1 className="text-[#d83fbf] title relative">
           Our <span className="text-black">Programs</span>
         </h1>
         <p className="font-semibold mb-4 italic font-[Lora]">
@@ -112,10 +120,17 @@ const ProgramContent = () => {
             </div>
           </div>
         </div>
-      </div>
+      </motion.div>
 
       {/* program images */}
-      <div className="relative mb-12">
+      <motion.div
+        className="relative mb-12"
+        initial={{ bottom: -50 }}
+        whileInView={{ bottom: 0 }}
+        transition={{
+          duration: 1,
+        }}
+      >
         <div className="flex justify-center rounded-xl">
           <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px] rounded-full border-[10px] border-[#6534ed79] hover:border-[#6534ed] overflow-hidden">
             <img
@@ -143,7 +158,7 @@ const ProgramContent = () => {
             className="hover:scale-105"
           />
         </div>
-      </div>
+      </motion.div>
     </div>
   );
 };

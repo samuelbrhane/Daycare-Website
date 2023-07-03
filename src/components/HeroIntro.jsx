@@ -12,7 +12,7 @@ const HeroIntro = () => {
           transition={{
             duration: 1.5,
           }}
-          className="relative font-bold font-[Kablammo] text-xl md:text-3xl lg:text-[30px] xl:text-[40px] flex flex-col 2xl:text-[60px] text-[#c53dac] mb-2 md:mb-3 xl:mb-5"
+          className="relative font-bold text-xl md:text-3xl lg:text-[30px] xl:text-[40px] flex flex-col 2xl:text-[60px] text-[#c53dac] mb-2 md:mb-3 xl:mb-5"
         >
           <h1>
             High Quality <span className="text-[#3cc8d4]">Child Care</span>
