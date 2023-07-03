@@ -16,8 +16,8 @@ const AboutContent = () => {
         <div className="w-full">
           <div>
             <h1 className="font-bold text-4xl">Quality Care &</h1>
-            <div className="relative my-4 bg-gradient-to-l from-[#0930ce] via-[#e3d512] to-[#cf1ca8] rounded text-center mb-2 md:mb-3 xl:mb-5 py-2 md:py-6 lg:py-10 px-4">
-              <h1 className="font-bold text-sm md:text-xl lg:text-[20px] xl:text-[30px] text-white">
+            <div className="relative my-4 bg-gradient-to-l from-[#0930ce] via-[#e3d512] to-[#cf1ca8] rounded text-center mb-2 md:mb-3 xl:mb-5 py-8 xl:py-10 px-4">
+              <h1 className="font-bold text-[20px] xl:text-[30px] text-white">
                 COMPETITIVE
               </h1>
               <img
@@ -26,9 +26,7 @@ const AboutContent = () => {
                 className="absolute right-[-20px] top-[-20px] w-[80px] h-[80px] rounded"
               />
             </div>
-            <h1 className="font-bold text-sm md:text-xl lg:text-[18px] xl:text-[24px] text-right">
-              RATES
-            </h1>
+            <h1 className="font-bold text-3xl text-right">RATES</h1>
           </div>
 
           <div className="mt-8 md:mt-12 ">
@@ -59,8 +57,8 @@ const AboutContent = () => {
         <div className="w-full">
           <div>
             <h1 className="font-bold text-4xl">State</h1>
-            <div className="relative my-4 bg-gradient-to-l from-[#37e310] via-[#e312e3] to-[#1ccfcf] rounded text-center mb-2 md:mb-3 xl:mb-5 py-2 md:py-6 lg:py-10 px-4">
-              <h1 className="font-bold text-sm md:text-xl lg:text-[20px] xl:text-[30px] text-white">
+            <div className="relative my-4 bg-gradient-to-l from-[#37e310] via-[#e312e3] to-[#1ccfcf] rounded text-center mb-2 md:mb-3 xl:mb-5 py-8 xl:py-10 px-4">
+              <h1 className="font-bold text-[20px] xl:text-[30px] text-white">
                 LICENSED &
               </h1>
               <img
@@ -69,9 +67,7 @@ const AboutContent = () => {
                 className="absolute right-[-20px] top-[-20px] w-[80px] h-[80px] rounded"
               />
             </div>
-            <h1 className="font-bold text-sm md:text-xl lg:text-[18px] xl:text-[24px] text-right">
-              CERTIFIED
-            </h1>
+            <h1 className="font-bold text-3xl text-right">CERTIFIED</h1>
           </div>
 
           <div className="mt-8 md:mt-12 ">
@@ -103,8 +99,8 @@ const AboutContent = () => {
         <div className="w-full">
           <div>
             <h1 className="font-bold text-4xl">Highly-Qualified</h1>
-            <div className="relative my-4 bg-gradient-to-l from-[#ce0909] via-[#3512e3] to-[#c0cf1c] rounded text-center mb-2 md:mb-3 xl:mb-5 py-2 md:py-6 lg:py-10 px-4">
-              <h1 className="font-bold text-sm md:text-xl lg:text-[20px] xl:text-[30px] text-white">
+            <div className="relative my-4 bg-gradient-to-l from-[#ce0909] via-[#3512e3] to-[#c0cf1c] rounded text-center mb-2 md:mb-3 xl:mb-5 py-8 xl:py-10 px-4">
+              <h1 className="font-bold text-[20px] xl:text-[30px] text-white">
                 TEACHERS &
               </h1>
               <img
@@ -113,9 +109,7 @@ const AboutContent = () => {
                 className="absolute right-[-20px] top-[-20px] w-[80px] h-[80px] rounded"
               />
             </div>
-            <h1 className="font-bold text-sm md:text-xl lg:text-[18px] xl:text-[24px] text-right">
-              STAFFS
-            </h1>
+            <h1 className="font-bold text-3xl text-right">STAFFS</h1>
           </div>
 
           <div className="mt-8 md:mt-12 ">
@@ -149,8 +143,8 @@ const AboutContent = () => {
         <div className="w-full">
           <div>
             <h1 className="font-bold text-4xl">Nutritious</h1>
-            <div className="relative my-4 bg-gradient-to-l from-[#eccb13] via-[#12e366] to-[#1c8acf] rounded text-center mb-2 md:mb-3 xl:mb-5 py-2 md:py-6 lg:py-10 px-4">
-              <h1 className="font-bold text-sm md:text-xl lg:text-[20px] xl:text-[30px] text-white">
+            <div className="relative my-4 bg-gradient-to-l from-[#eccb13] via-[#12e366] to-[#1c8acf] rounded text-center mb-2 md:mb-3 xl:mb-5 py-8 xl:py-10 px-4">
+              <h1 className="font-bold text-[20px] xl:text-[30px] text-white">
                 MEALS &
               </h1>
               <img
@@ -159,9 +153,7 @@ const AboutContent = () => {
                 className="absolute right-[-20px] top-[-20px] w-[80px] h-[80px] rounded"
               />
             </div>
-            <h1 className="font-bold text-sm md:text-xl lg:text-[18px] xl:text-[24px] text-right">
-              SNACKS
-            </h1>
+            <h1 className="font-bold text-3xl text-right">SNACKS</h1>
           </div>
 
           <div className="mt-8 md:mt-12 ">
