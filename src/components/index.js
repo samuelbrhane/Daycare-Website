@@ -14,3 +14,7 @@ export { default as Schedules } from "./Schedules";
 export { default as About } from "./About";
 export { default as VisionMission } from "./VisionMission";
 export { default as AboutContent } from "./AboutContent";
+export { default as Contact } from "./Contact";
+export { default as ContactContent } from "./ContactContent";
+export { default as ContactForm } from "./ContactForm";
+export { default as Footer } from "./Footer";

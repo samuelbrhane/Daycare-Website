@@ -15,6 +15,9 @@
 }
 
 @layer components {
+  .input {
+    @apply outline-none p-2 md:p-4 rounded shadow-sm border-2 border-[#38c6ed];
+  }
   .linkImage {
     @apply lg:w-[60px] lg:h-[50px] w-[40px] h-[30px];
   }
@@ -45,7 +48,8 @@
     @apply font-bold text-xl md:text-3xl lg:text-[30px] xl:text-[40px] 2xl:text-[60px] text-[#a234a3] mb-10 2xl:mb-16;
   }
 
-  .links {
+  .links,
+  .footerLink {
     display: none;
   }
 
@@ -57,8 +61,9 @@
     @apply font-[Lora] font-bold italic text-[24px] 2xl:text-[30px] mb-4;
   }
 
-  @media (min-width: 1028px) {
-    .links {
+  @media (min-width: 1024px) {
+    .links,
+    .footerLink {
       display: flex;
     }
   }
