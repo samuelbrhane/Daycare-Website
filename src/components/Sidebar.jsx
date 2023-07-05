@@ -8,7 +8,7 @@ const Sidebar = () => {
       {links.map((link) => (
         <div key={link.id}>
           <Link
-            offset={link.title === "Home" ? -75 : -10}
+            offset={link.title === "Home" ? -75 : -100}
             smooth={true}
             duration={500}
             style={{ cursor: "pointer" }}

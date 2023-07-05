@@ -7,7 +7,7 @@ const About = () => {
   return (
     <section
       id="About Us"
-      className="px-4 md:px-12 lg:px-16 xl:px-20 py-8 md:py-12 lg:py-20 xl:py-28"
+      className="px-4 md:px-12 lg:px-16 xl:px-20 pt-8 md:pt-12 lg:pt-20 xl:pt-28"
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 xl:gap-20 2xl:gap-28 w-full ">
         <motion.div
