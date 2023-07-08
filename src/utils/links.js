@@ -10,20 +10,21 @@ export const links = [
     image: "/program.png",
   },
   {
-    id: 4,
+    id: 3,
     title: "Information",
     image: "/info.png",
   },
-  // {
-  //   id: 7,
-  //   title: "Testimonials",
-  //   image: "/testimonial.png",
-  // },
+
+  {
+    id: 4,
+    title: "About Us",
+    image: "/about-us.png",
+  },
 
   {
     id: 5,
-    title: "About Us",
-    image: "/about-us.png",
+    title: "Parents Corner",
+    image: "/testimonial.png",
   },
   {
     id: 6,
