@@ -23,14 +23,14 @@
   }
 
   .links {
-    @apply lg:flex items-center gap-20 xl:gap-24;
+    @apply lg:flex items-center gap-16 2xl:gap-24;
   }
 
   .link {
-    @apply flex flex-col items-center hover:scale-105 gap-2 hover:text-[#297b98] text-[#872285];
+    @apply flex flex-col items-center hover:scale-105 gap-2 hover:text-[#982984] text-[#227887];
   }
   .link > p {
-    @apply font-[12px] lg:font-semibold font-[Lobster];
+    @apply font-[12px] lg:font-semibold font-[Lora];
   }
 
   .heroContainer {
