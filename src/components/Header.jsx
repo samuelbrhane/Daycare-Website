@@ -15,7 +15,7 @@ const Header = () => {
             <h1 className="text-center xl:text-3xl 2xl:text-4xl text-[#a123a2] font-[Lora] font-bold">
               Addis-Maya{" "}
               <span className="2xl:text-3xl xl:text-2xl text-black font-[Lobster]">
-                Daycare and Preschool
+                Childcare and Preschool
               </span>
             </h1>
           </div>

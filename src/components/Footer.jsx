@@ -23,7 +23,7 @@ const Footer = () => {
                     <h1 className="text-center text-4xl text-[#a123a2] font-[Lora] font-bold">
                       Addis-Maya{" "}
                       <span className="text-3xl text-black font-[Lobster]">
-                        Daycare and Preschool
+                        Childcare and Preschool
                       </span>
                     </h1>
                   </div>
@@ -45,7 +45,7 @@ const Footer = () => {
                 Bole SubCity, Addis Ababa, Ethiopia
               </p>
 
-              <p>Bright Child Care and Pre School</p>
+              <p>Addis-Maya Child Care and Pre School</p>
             </div>
           </div>
 
@@ -113,7 +113,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="border-t-2 border-[#a234a3] mt-4 border-dotted">
-          <p className="mt-4 md:mt-6">Copyright 2023 Bright Child Care.</p>
+          <p className="mt-4 md:mt-6">Copyright 2023 Addis-Maya Child Care.</p>
           <p>All Rights Reserved. Websites for Daycares</p>
         </div>
       </div>
