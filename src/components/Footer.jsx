@@ -7,23 +7,26 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="mt-6 md:mt-8 xl:mt-12   relative bg-[url('/hero4.jpg')] bg-cover bg-center h-[600px] md:h-[410px] 2xl:h-[380px] text-white bg-no-repeat">
+    <div className="mt-6 md:mt-8 xl:mt-12   relative bg-[url('/addis4.jpeg')] bg-cover bg-center h-[630px] md:h-[410px] 2xl:h-[380px] text-white bg-no-repeat">
       <div className="absolute top-0 left-0 bottom-0 w-full px-4 md:px-12 lg:px-16 xl:px-20 bg-[#041210da] py-8 md:py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="flex justify-center">
             <div>
               <div className="flex items-center justify-center">
-                <div className="w-[180px] h-[180px] relative">
+                <div className="xl:w-[280px] xl:h-[180px] relative">
                   <img
                     src="/logo-bg.png"
                     alt="logo-bg"
                     className="w-full h-full"
                   />
-                  <img
-                    src="/logo.png"
-                    alt="logo"
-                    className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]"
-                  />
+                  <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+                    <h1 className="text-center text-4xl text-[#a123a2] font-[Lora] font-bold">
+                      Addis-Maya{" "}
+                      <span className="text-3xl text-black font-[Lobster]">
+                        Daycare and Preschool
+                      </span>
+                    </h1>
+                  </div>
                 </div>
               </div>
 
@@ -76,32 +79,32 @@ const Footer = () => {
               </h1>
               <div className="grid grid-cols-3 gap-4">
                 <img
-                  src="/hero1.jpg"
+                  src="/addis1.jpeg"
                   alt="footer"
                   className="w-[100px] h-[80px] rounded-xl"
                 />
                 <img
-                  src="/hero2.jpg"
+                  src="/addis2.jpeg"
                   alt="footer"
                   className="w-[100px] h-[80px] rounded-xl"
                 />
                 <img
-                  src="/hero3.jpg"
+                  src="/addis3.jpeg"
                   alt="footer"
                   className="w-[100px] h-[80px] rounded-xl"
                 />
                 <img
-                  src="/hero4.jpg"
+                  src="/addis4.jpeg"
                   alt="footer"
                   className="w-[100px] h-[80px] rounded-xl"
                 />
                 <img
-                  src="/program1.jpg"
+                  src="/addis5.jpeg"
                   alt="footer"
                   className="w-[100px] h-[80px] rounded-xl"
                 />
                 <img
-                  src="/program2.jpg"
+                  src="/addis6.jpeg"
                   alt="footer"
                   className="w-[100px] h-[80px] rounded-xl"
                 />
