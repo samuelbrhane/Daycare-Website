@@ -18,22 +18,22 @@ const Hero = () => {
 
         <div className="carousel-inner h-[182px] md:h-[330px] lg:h-[430px] xl:h-[540px] 2xl:h-[590px]">
           <div className="item active heroContainer relative">
-            <Image src="/hero1.jpg" fill alt="hero" className="heroImage" />
+            <Image src="/addis14.jpeg" fill alt="hero" className="heroImage" />
             <HeroIntro />
           </div>
 
           <div className="item heroContainer">
-            <Image src="/hero2.jpg" fill alt="hero" className="heroImage" />
+            <Image src="/addis10.jpeg" fill alt="hero" className="heroImage" />
             <FirstHero />
           </div>
 
           <div className="item heroContainer">
-            <Image src="/hero3.jpg" fill alt="hero" className="heroImage" />
+            <Image src="/addis13.jpeg" fill alt="hero" className="heroImage" />
             <SecondHero />
           </div>
 
           <div className="item heroContainer">
-            <Image src="/hero4.jpg" fill alt="hero" className="heroImage" />
+            <Image src="/addis11.jpeg" fill alt="hero" className="heroImage" />
             <ThirdHero />
           </div>
         </div>
