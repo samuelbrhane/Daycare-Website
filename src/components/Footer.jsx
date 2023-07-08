@@ -114,7 +114,7 @@ const Footer = () => {
         </div>
         <div className="border-t-2 border-[#a234a3] mt-4 border-dotted">
           <p className="mt-4 md:mt-6">Copyright 2023 Addis-Maya Child Care.</p>
-          <p>All Rights Reserved. Websites for Daycares</p>
+          <p>All Rights Reserved.</p>
         </div>
       </div>
     </div>
