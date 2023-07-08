@@ -17,7 +17,7 @@ const Information = () => {
             <h1 className="text-[#d83fbf] title text-center md:px-20 lg:px-40 xl:px-56">
               Information <span className="text-black">Center</span>
             </h1>
-            <p className="font-semibold mb-4 text-center md:px-20 lg:px-40 xl:px-56 italic font-[Lora]">
+            <p className="font-semibold mb-4 text-center md:px-20 lg:px-40 xl:px-56">
               Our daycare facility offers a nurturing and enriching environment
               for your child&apos; early development. <br /> With spacious
               classrooms, well-equipped play areas, and experienced staff,
