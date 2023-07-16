@@ -18,3 +18,8 @@ export { default as Contact } from "./Contact";
 export { default as ContactContent } from "./ContactContent";
 export { default as ContactForm } from "./ContactForm";
 export { default as Footer } from "./Footer";
+export { default as ParentsCorner } from "./ParentsCorner";
+export { default as FAQ } from "./FAQ";
+export { default as Gallery } from "./Gallery";
+export { default as Testimonials } from "./Testimonials";
+export { default as TestimonialCard } from "./TestimonialCard";

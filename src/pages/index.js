@@ -7,6 +7,7 @@ import {
   Hero,
   Information,
   Program,
+  ParentsCorner,
 } from "@/components";
 
 export default function Home() {
@@ -39,6 +40,7 @@ export default function Home() {
         <Program />
         <Information />
         <About />
+        <ParentsCorner />
         <Contact />
         <Footer />
       </main>
