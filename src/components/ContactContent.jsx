@@ -16,8 +16,31 @@ const ContactContent = () => {
         <h1 className="font-bold text-4xl text-[#a224a2] mb-2">
           Enroll Now or Join the Waitlist!
         </h1>
-        <p>Thank you for your interest in Bright Child Care and Preschool.</p>
-        <span className="mt-2">
+        <p className="font-bold mb-2">
+          Thank you for your interest in Bright Child Care and Preschool.
+        </p>
+        <p>
+          We prioritize weekly communication with parents to keep them informed
+          about their child&apos;s progress. At the end of each day, our
+          professional nannies provide an overview of the day&apos;s activities
+          and connect with each parent or caregiver individually to discuss
+          their child&apos;s achievements and areas for improvement.
+        </p>
+        <p className="my-2">
+          Before each day begins, our caretakers are available to answer any
+          questions or concerns. We also use an online app to simplify
+          communication between teachers and keep parents up-to-date on their
+          child&apos;s activities, events, and volunteer opportunities.
+        </p>
+        <p className="mb-2">
+          Mid-year and end-of-year reports provide a comprehensive developmental
+          profile of each child&apos;s progress in various areas such as social,
+          cognitive, emotional, and physical development. These reports vary
+          based on age group and cover topics such as literacy skills, motor
+          skills, and imaginative play.
+        </p>
+
+        <span>
           In order to enroll your child at our daycare, please download, fill
           in, and bring the enrollment form PDF attached to this contact form.{" "}
         </span>
