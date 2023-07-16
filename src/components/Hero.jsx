@@ -18,7 +18,7 @@ const Hero = () => {
 
         <div className="carousel-inner h-[182px] md:h-[330px] lg:h-[430px] xl:h-[540px] 2xl:h-[590px]">
           <div className="item active heroContainer relative">
-            <Image src="/addis14.jpeg" fill alt="hero" className="heroImage" />
+            <Image src="/gallery3.jpeg" fill alt="hero" className="heroImage" />
             <HeroIntro />
           </div>
 
