@@ -2,33 +2,33 @@ export const links = [
   {
     id: 1,
     title: "Home",
-    image: "/home.png",
+    image: "/house.png",
   },
   {
     id: 2,
     title: "Program",
-    image: "/program.png",
+    image: "/folder.png",
   },
   {
     id: 3,
     title: "Information",
-    image: "/info.png",
+    image: "/folders.png",
   },
 
   {
     id: 4,
     title: "About Us",
-    image: "/about-us.png",
+    image: "/search.png",
   },
 
   {
     id: 5,
     title: "Parents Corner",
-    image: "/testimonial.png",
+    image: "/people.png",
   },
   {
     id: 6,
     title: "Contact Us",
-    image: "/contact.png",
+    image: "/communicate.png",
   },
 ];

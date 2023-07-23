@@ -12,10 +12,10 @@ const Header = () => {
         <div className="relative w-[160px] h-[90px] xl:w-[250px] xl:h-[140px] ">
           <img src="/logo-bg.png" alt="logo-bg" className="w-full h-full" />
           <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-            <h1 className="text-center xl:text-3xl 2xl:text-4xl text-[#a123a2] font-[Lora] font-bold">
+            <h1 className="text-center xl:text-3xl 2xl:text-4xl text-[#b6ad32] font-[Lora] font-bold">
               Addis-Maya{" "}
-              <span className="2xl:text-3xl xl:text-2xl text-black font-[Lobster]">
-                Childcare and Preschool
+              <span className="2xl:text-3xl xl:text-2xl text-black">
+               Childcare Center
               </span>
             </h1>
           </div>
@@ -44,7 +44,7 @@ const Header = () => {
         <img
           src="/menu.png"
           alt="menu-icon"
-          className="w-[50px] h-[40px] lg:hidden cursor-pointer hover:scale-[1.03]"
+          className="w-[40px] h-[30px] lg:hidden cursor-pointer hover:scale-[1.03]"
           onClick={() => setIsSidebarOpen((prev) => !prev)}
         />
       </div>

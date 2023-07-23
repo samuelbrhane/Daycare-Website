@@ -2,6 +2,7 @@ import Image from "next/image";
 import React from "react";
 import { AiOutlineRight } from "react-icons/ai";
 import { motion } from "framer-motion";
+import { BsDot } from "react-icons/bs";
 
 const ProgramContent = () => {
   return (
@@ -15,7 +16,7 @@ const ProgramContent = () => {
           duration: 1,
         }}
       >
-        <h1 className="text-[#d83fbf] title relative">
+        <h1 className="text-[#29589f] title relative">
           Our <span className="text-black">Programs</span>
         </h1>
         <p className="mb-4">
@@ -43,32 +44,23 @@ const ProgramContent = () => {
         {/* description */}
         <div className="font-[Lora]">
           <p className="flex gap-2">
-            <span>
-              <AiOutlineRight className="text-[#a23dea]" />
-            </span>
             In the Preschool program, your child builds skills vital to success
             in kindergarten, but also gains respect for others, and a strong
             confidence in him or herself. Learning experiences develop literacy,
-            mathematical thinking, problem-solving skills, and creativity.
+            mathematical thinking, problem-solving skills, and creativity. To
+            further prepare for school, children will:
           </p>
-          <p className="flex gap-2">
-            <AiOutlineRight className="text-[#a23dea]" />
-            To further prepare for school, children will:
-          </p>
-          <p className="flex gap-2">
-            <AiOutlineRight className="text-[#a23dea]" />
+
+          <p className="gap-4 pl-12 mt-4 flex items-center">
+            <span className="w-[8px] h-[8px] rounded-full bg-[#b6ad32]" />
             Take on challenges.
           </p>
-          <p className="flex gap-2">
-            <AiOutlineRight className="text-[#a23dea]" />
-            Develop their own learning goals.
-          </p>
-          <p className="flex gap-2">
-            <AiOutlineRight className="text-[#a23dea]" />
+          <p className="gap-4 pl-12 mt-2 flex items-center">
+            <span className="w-[8px] h-[8px] rounded-full bg-[#b6ad32]" />
             See situations from different perspectives.
           </p>
-          <p className="flex gap-2">
-            <AiOutlineRight className="text-[#a23dea]" />
+          <p className="gap-4 pl-12 mt-2 flex items-center">
+            <span className="w-[8px] h-[8px] rounded-full bg-[#b6ad32]" />
             Make connections with one another.
           </p>
         </div>
@@ -80,7 +72,7 @@ const ProgramContent = () => {
               <h1 className="font-bold text-[28px] text-[#4166ee] mb-1">
                 TODDLERS
               </h1>
-              <div className="w-full h-[6px] rounded bg-gradient-to-r from-[#a234a2] to-[#046099]" />
+              <div className="w-full h-[6px] rounded bg-gradient-to-l from-[#29999f]  to-[#c5ed12] via-[#b4309e]" />
               <p className="mt-4">
                 Introduction to play, creative arts, language development &
                 sensory exploration.
@@ -91,10 +83,10 @@ const ProgramContent = () => {
           <div className="flex justify-center">
             <div>
               <h1 className="font-bold text-4xl">Program for</h1>
-              <h1 className="font-bold text-[28px] text-[#3cf3a0] mb-1">
+              <h1 className="font-bold text-[28px] text-[#b6ad32] mb-1">
                 PRESCHOOL
               </h1>
-              <div className="w-full h-[6px] rounded bg-gradient-to-r from-[#a234a2] to-[#046099]" />
+              <div className="w-full h-[6px] rounded bg-gradient-to-l from-[#29999f]  to-[#c5ed12] via-[#b4309e]" />
               <p className="mt-4">
                 Developing the critical thinking and problem-solving skills they
                 will need to succeed in school.
@@ -114,7 +106,7 @@ const ProgramContent = () => {
         }}
       >
         <div className="flex justify-center rounded-xl">
-          <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px] rounded-full border-[10px] border-[#6534ed79] hover:border-[#6534ed] overflow-hidden">
+          <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px] rounded-full border-[10px] border-[#29589fb1] hover:border-[#29589f] overflow-hidden">
             <img
               src="/addis7.jpeg"
               alt="program"
@@ -123,7 +115,7 @@ const ProgramContent = () => {
           </div>
         </div>
 
-        <div className="w-[180px] h-[180px] md:w-[240px] md:h-[240px] 2xl:w-[280px] 2xl:h-[280px] overflow-hidden rounded-full border-[10px] border-[#34ede479] hover:border-[#34ede4] hover:scale-[1.01] absolute bottom-[-50px] md:top-[250px] xl:top-[300px] 2xl:top-[350px] left-10">
+        <div className="w-[180px] h-[180px] md:w-[240px] md:h-[240px] 2xl:w-[280px] 2xl:h-[280px] overflow-hidden rounded-full border-[10px] border-[#b4309e9c] hover:border-[#b4309e] hover:scale-[1.01] absolute bottom-[-50px] md:top-[250px] xl:top-[300px] 2xl:top-[350px] left-10">
           <Image
             src="/addis3.jpeg"
             fill
@@ -132,7 +124,7 @@ const ProgramContent = () => {
           />
         </div>
 
-        <div className="w-[180px] h-[180px] md:w-[240px] md:h-[240px] 2xl:w-[280px] 2xl:h-[280px] rounded-full border-[10px] border-[#34ede479] hover:border-[#34ede4] hover:scale-[1.01] absolute bottom-[-50px] md:top-[250px] xl:top-[300px] 2xl:top-[350px] right-10 overflow-hidden">
+        <div className="w-[180px] h-[180px] md:w-[240px] md:h-[240px] 2xl:w-[280px] 2xl:h-[280px] rounded-full border-[10px] border-[#b4309e9c] hover:border-[#b4309e] hover:scale-[1.01] absolute bottom-[-50px] md:top-[250px] xl:top-[300px] 2xl:top-[350px] right-10 overflow-hidden">
           <Image
             src="/addis4.jpeg"
             fill

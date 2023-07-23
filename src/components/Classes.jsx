@@ -15,9 +15,9 @@ const Classes = () => {
         }}
       >
         <h1 className="subtitle">
-          School <span className="text-[#e75842]">Classes</span>
+          Our <span className="text-[#b4309e]">Classes</span>
         </h1>
-        <p className="font-[Lora] italic font-bold max-w-[400px]">
+        <p className="font-[Lora] font-bold max-w-[400px]">
           Explore the diverse range of classes offered at our daycare, where
           children can engage in a variety of educational and creative pursuits.
         </p>
@@ -38,7 +38,7 @@ const Classes = () => {
                   duration: item.duration,
                 }}
               >
-                <div className="w-[300px] h-[300px] rounded-full overflow-hidden z-20 border-[#eee5623c] border-[10px]">
+                <div className="w-[300px] h-[300px] rounded-full overflow-hidden z-20 border-[#b6328ed7] border-[10px]">
                   <Image
                     src={item.image}
                     alt="classes"
@@ -47,30 +47,13 @@ const Classes = () => {
                     className="w-full h-full"
                   />
                 </div>
-                <div className="bg-[#eee5623c] mt-[-30px] rounded px-8 py-6">
-                  <h1 className="text-center font-bold font-[Lobster] text-4xl pt-12 pb-6">
+                <div className="bg-[#b6328ed7] mt-[-30px] rounded px-8 py-6 text-white">
+                  <h1 className="text-center font-bold font-[Lora] italic text-4xl pt-8 pb-2">
                     {item.title}
                   </h1>
-                  <div className="grid grid-cols-3 gap-3">
-                    <div className="border-[#f62525] border-t-[6px] rounded text-center">
-                      <h2 className="pt-4 pb-2 text-[#f62525] font-bold">
-                        Age:{" "}
-                      </h2>
-                      <p>{item.age}</p>
-                    </div>
-                    <div className="border-[#1de321] border-t-[6px] rounded text-center">
-                      <h2 className="pt-4 pb-2 text-[#1de321] font-bold">
-                        Time:{" "}
-                      </h2>
-                      <p>{item.time}</p>
-                    </div>
-                    <div className="border-[#2758ec] border-t-[6px] rounded text-center">
-                      <h2 className="pt-4 pb-2 text-[#2758ec] font-bold">
-                        Capacity:{" "}
-                      </h2>
-                      <p>{item.capacity}</p>
-                    </div>
-                  </div>
+                  <h2 className="text-center font-bold font-[Lora]">
+                    {item.subtitle}
+                  </h2>
                 </div>
               </motion.div>
             </div>

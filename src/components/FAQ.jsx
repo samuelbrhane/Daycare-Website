@@ -11,7 +11,7 @@ const FAQ = () => {
   return (
     <div className="px-4 md:px-12 lg:px-16 xl:px-20 mt-6 md:mt-12">
       <h1 className="subtitle">Frequently Asked Questions</h1>
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 xl:gap-20 2xl:gap-28 w-full mt-6 md:mt-8 xl:mt-12">
+      <div className="grid grid-cols-1 2xl:grid-cols-2 gap-8 md:gap-16 xl:gap-20 2xl:gap-28 w-full mt-6 md:mt-8 xl:mt-12">
         <motion.div
           initial={{ left: -50 }}
           whileInView={{ left: 0 }}
@@ -61,7 +61,7 @@ const FAQ = () => {
         </motion.div>
 
         <motion.div
-          className="bg-[#fb14fb] p-8 rounded-md border-[20px] border-[#4efd5f] relative"
+          className="p-6 bg-[#b4309e] rounded-md border-[10px] border-[#3478df] relative"
           initial={{ bottom: -50 }}
           whileInView={{ bottom: 0 }}
           transition={{

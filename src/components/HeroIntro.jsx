@@ -12,7 +12,7 @@ const HeroIntro = () => {
           transition={{
             duration: 1.5,
           }}
-          className="relative font-bold text-xl md:text-3xl lg:text-[30px] xl:text-[40px] flex flex-col 2xl:text-[60px] text-[#c234c0] mb-2 md:mb-3 xl:mb-5"
+          className="relative font-bold font-[Lora] italic text-xl md:text-3xl lg:text-[30px] xl:text-[40px] flex flex-col 2xl:text-[60px] text-[#29589f] mb-2 md:mb-3 xl:mb-5"
         >
           <h1>
             High Quality <span className="text-[#ffffff]">Child Care</span>
@@ -29,7 +29,7 @@ const HeroIntro = () => {
           transition={{
             duration: 1.5,
           }}
-          className="relative font-bold text-white text-lg  md:text-xl lg:text-[20px] xl:text-[30px] flex flex-col 2xl:text-[50px] mb-2 md:mb-3 xl:mb-5 font-[Lobster]"
+          className="relative font-bold text-white text-lg  md:text-xl lg:text-[20px] xl:text-[30px] flex flex-col 2xl:text-[50px] mb-2 md:mb-3 xl:mb-5"
         >
           <h1>Make a Brighter Future For</h1>
           <h1>Your Child</h1>
@@ -41,11 +41,11 @@ const HeroIntro = () => {
           transition={{
             duration: 1,
           }}
-          className="relative font-bold text-lg md:text-xl xl:text-4xl 2xl:text-[38px] font-[Lora] italic mb-2 md:mb-3 xl:mb-5"
+          className="relative font-bold text-lg md:text-xl xl:text-4xl 2xl:text-[38px] mb-2 md:mb-3 xl:mb-5"
         >
-          <span className="text-[#3abf95]">Learn.</span>
-          <span className="text-[#c53dac]">Play.</span>
-          <span className="text-[#b0f148]">Grow</span>
+          <span className="text-[#29589f]">Learn.</span>
+          <span className="text-[#ffffff]">Play.</span>
+          <span className="text-[#b4309e]">Grow</span>
         </motion.h1>
 
         {/* enrollmentTitle */}
@@ -55,13 +55,12 @@ const HeroIntro = () => {
           transition={{
             duration: 1,
           }}
-          className="relative text-white font-bold text-lg md:text-xl xl:text-4xl 2xl:text-[22px] flex flex-col mb-2 font-[Lora] italic"
+          className="relative text-white font-bold text-lg md:text-xl xl:text-4xl 2xl:text-[22px] flex flex-col mb-2"
         >
           <h1>
-            Now accepting{" "}
-            <span className="text-[#66dc4b] mt-2">enrollment</span>{" "}
+            Now accepting enrollment
           </h1>
-          <h1 className="!text-[#66dc4b]">applications</h1>
+          <h1 >applications</h1>
         </motion.div>
       </div>
     </div>

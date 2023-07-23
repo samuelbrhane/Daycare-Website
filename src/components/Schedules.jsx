@@ -16,9 +16,9 @@ const Schedules = () => {
           }}
         >
           <h1 className="subtitle">
-            School <span className="text-[#e75842]">Schedules</span>
+            Our <span className="text-[#b4309e]">Schedules</span>
           </h1>
-          <p className="font-[Lora] italic font-bold max-w-[400px]">
+          <p className="font-[Lora] font-bold max-w-[400px]">
             We are delighted to offer a daycare program that caters to children
             of different age groups. Our daycare provides a nurturing and
             stimulating environment for toddlers and preschoolers.
@@ -32,7 +32,7 @@ const Schedules = () => {
               key={index}
               className="w-full h-[200px] overflow-hidden relative text-white"
             >
-              <div className="absolute pt-[40px] h-full left-0 bottom-0 right-0 bg-gradient-to-t px-8 xl:px-12 from-[#30af3063] rounded to-[#d624dca7] via-[#6829bf9b]">
+              <div className="absolute pt-[40px] h-full left-0 bottom-0 right-0 bg-gradient-to-l px-8 xl:px-12 from-transparent  to-[#29589f] via-[#29589fc2] rounded">
                 <h1 className="font-bold font-[Lora] pb-4 text-4xl text-[#ffffff] ">
                   {schedule.name}
                 </h1>

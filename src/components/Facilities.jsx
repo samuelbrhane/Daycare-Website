@@ -15,9 +15,9 @@ const Facilities = () => {
         }}
       >
         <h1 className="subtitle">
-          School <span className="text-[#e75842]">Facilities</span>
+          Our <span className="text-[#b4309e]">Facilities</span>
         </h1>
-        <p className="font-[Lora] italic font-bold max-w-[400px]">
+        <p className="font-[Lora] font-bold max-w-[400px]">
           Discover our school facilities, including a library, art room, healthy
           canteen and outdoor playground, which offer endless opportunities for
           exploration and discovery.
@@ -59,10 +59,10 @@ const Facilities = () => {
               >
                 <div className="flex items-center justify-center w-full h-full p-10 text-center">
                   <div>
-                    <h1 className="font-bold mb-4 text-[30px] font-[Lobster]">
+                    <h1 className="font-bold mb-4 text-[30px] font-[Lora]">
                       {facility.title}
                     </h1>
-                    <p className="font-[Lora] italic font-semibold">
+                    <p className="font-[Lora] font-semibold">
                       {facility.subtitle}
                     </p>
                   </div>

@@ -11,7 +11,7 @@ const About = () => {
       id="About Us"
       className="px-4 md:px-12 lg:px-16 xl:px-20 pt-8 md:pt-12 lg:pt-20 xl:pt-28"
     >
-      <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12 xl:gap-16 w-full ">
+      <div className="grid grid-cols-1 2xl:grid-cols-2 gap-8 md:gap-12 xl:gap-16 w-full ">
         <motion.div
           className="relative"
           initial={{ left: -50 }}
@@ -20,7 +20,7 @@ const About = () => {
             duration: 0.5,
           }}
         >
-          <h1 className="text-[#d83fbf] title">
+          <h1 className="text-[#29589f] title">
             About <span className="text-black">Us</span>
           </h1>
           <p className="mb-4">
@@ -37,7 +37,7 @@ const About = () => {
         </motion.div>
 
         <motion.div
-          className="p-6 bg-[#fb14fb] rounded-md border-[10px] border-[#7d4efd] relative"
+          className="p-6 bg-[#b4309e] rounded-md border-[10px] border-[#3478df] relative"
           initial={{ bottom: -50 }}
           whileInView={{ bottom: 0 }}
           transition={{
@@ -68,7 +68,7 @@ const About = () => {
         </h2>
         <div className="grid grid-cols-1 md:grid-cols-2 md:gap-12 gap-4">
           <div className="flex gap-4 items-center">
-            <div className="min-w-[80px] min-h-[80px] text-[#6af55b] rounded-full bg-gradient-to-t from-[#000000] to-[#7b097b9f] flex items-center justify-center">
+            <div className="min-w-[80px] min-h-[80px] text-[#b6ad32] rounded-full bg-gradient-to-t from-[#000000] to-[#29589f] flex items-center justify-center">
               <GiPlantWatering className="w-[50px] h-[50px]" />
             </div>
 
@@ -81,7 +81,7 @@ const About = () => {
             </p>
           </div>
           <div className="flex gap-4 items-center">
-            <div className="min-w-[80px] min-h-[80px] text-[#6af55b] rounded-full bg-gradient-to-t from-[#000000] to-[#7b097b9f] flex items-center justify-center">
+            <div className="min-w-[80px] min-h-[80px] text-[#b6ad32] rounded-full bg-gradient-to-t from-[#000000] to-[#29589f] flex items-center justify-center">
               <BiSolidNetworkChart className="w-[50px] h-[50px]" />
             </div>
 

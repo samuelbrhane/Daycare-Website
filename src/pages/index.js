@@ -9,6 +9,7 @@ import {
   Program,
   ParentsCorner,
 } from "@/components";
+import { social, socials } from "@/utils/socials";
 
 export default function Home() {
   return (
@@ -43,6 +44,15 @@ export default function Home() {
         <ParentsCorner />
         <Contact />
         <Footer />
+        <div className="fixed top-[50%] translate-y-[-50%] right-0 h-[200px] text-4xl text-[#4035c0] !hover:text-[#4035c0] bg-[#eaea83c6] w-[40px] rounded-md flex flex-col items-center justify-center gap-8">
+          {socials.map((social) => (
+            <div key={social.id} className="hover:scale-[1.01]">
+              <a href={social.link} target="_blank" rel="noreferrer">
+                {social.icon}
+              </a>
+            </div>
+          ))}
+        </div>
       </main>
     </>
   );

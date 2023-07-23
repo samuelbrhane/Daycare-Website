@@ -13,15 +13,15 @@ const Information = () => {
       <div className="bg-[url('/blog-bg.png')] w-full">
         <div className="pt-12 md:pt-20 lg:pt-32 xl:pt-36">
           {/* intro */}
-          <div className="mb-16">
-            <h1 className="text-[#d83fbf] title text-center md:px-20 lg:px-40 xl:px-56">
+          <div className="mb-16 flex flex-col items-center">
+            <h1 className="text-[#29589f] title text-center md:px-20 lg:px-40 xl:px-56">
               Information <span className="text-black">Center</span>
             </h1>
-            <p className="font-semibold mb-4 text-center md:px-20 lg:px-40 xl:px-56">
+            <p className="font-bold mb-4 text-center max-w-[700px] font-[Lora]">
               Our daycare facility offers a nurturing and enriching environment
-              for your child&apos; early development. <br /> With spacious
-              classrooms, well-equipped play areas, and experienced staff,
-              <br /> we provide a safe and engaging experience.
+              for your child&apos; early development. With spacious classrooms,
+              well-equipped play areas, and experienced staff, we provide a safe
+              and engaging experience.
             </p>
           </div>
 

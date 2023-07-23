@@ -3,7 +3,7 @@ import Image from "next/image";
 
 const Hero = () => {
   return (
-    <div id="Home" className="pt-[90px] md:pt-[100px] lg:pt-[120px]">
+    <div id="Home" className="pt-[90px] md:pt-[100px]">
       <div id="myCarousel" className="carousel slide" data-ride="carousel">
         <ol className="carousel-indicators">
           <li

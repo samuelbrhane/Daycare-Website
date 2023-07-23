@@ -1,12 +1,6 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* Kablammo */
-/* Abril Fatface */
-/* Chakra Petch */
-/* Lilita One */
-/* Lobster */
-/* Tilt Prism */
 
 @layer base {
   a {
@@ -27,7 +21,7 @@
   }
 
   .link {
-    @apply flex flex-col items-center hover:scale-105 gap-2 hover:text-[#982984] text-[#227887];
+    @apply flex flex-col items-center hover:scale-105 gap-2 hover:text-[#b6ad32] text-[#29589f];
   }
   .link > p {
     @apply font-[12px] lg:font-semibold font-[Lora];
@@ -53,8 +47,12 @@
     display: none;
   }
 
+  .corner {
+    @apply shadow-md rounded px-6 py-4 border-r-[8px] border-[#a234a3] h-full hover:scale-[1.01];
+  }
+
   .title {
-    @apply font-[Lobster] text-[30px] 2xl:text-[40px] mb-4 md:mb-6 lg:mb-8;
+    @apply text-[30px] 2xl:text-[40px] mb-2 md:mb-4 lg:mb-6 font-bold font-[Lora] italic;
   }
 
   .subtitle {

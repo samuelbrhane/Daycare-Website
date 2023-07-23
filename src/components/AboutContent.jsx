@@ -12,11 +12,11 @@ const AboutContent = () => {
       className="mt-8 relative md:mt-12 xl:mt-16 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4 gap-4 md:gap-8"
     >
       {/* tuition */}
-      <div className="flex justify-center pr-6 border-b-2 border-l-2 border-[#ab40fe] p-4 rounded">
+      <div className="flex justify-center pr-6 border-b-2 border-l-2 border-[#a234a3] p-4 rounded">
         <div className="w-full">
           <div>
             <h1 className="font-bold text-4xl">Quality Care &</h1>
-            <div className="relative my-4 bg-gradient-to-l from-[#0930ce] via-[#e3d512] to-[#cf1ca8] rounded text-center mb-2 md:mb-3 xl:mb-5 py-8 xl:py-10 px-4">
+            <div className="relative my-4 bg-gradient-to-l from-[#23f4ff]  to-[#c5ed12] via-[#b4309e] rounded text-center mb-2 md:mb-3 xl:mb-5 py-8 xl:py-10 px-4">
               <h1 className="font-bold text-[20px] xl:text-[30px] text-white">
                 COMPETITIVE
               </h1>
@@ -53,11 +53,11 @@ const AboutContent = () => {
       </div>
 
       {/* certified */}
-      <div className="flex justify-center pr-6 border-b-2 border-l-2 border-[#e62adc] p-4 rounded">
+      <div className="flex justify-center pr-6 border-b-2 border-l-2 border-[#a234a3] p-4 rounded">
         <div className="w-full">
           <div>
             <h1 className="font-bold text-4xl">State</h1>
-            <div className="relative my-4 bg-gradient-to-l from-[#37e310] via-[#e312e3] to-[#1ccfcf] rounded text-center mb-2 md:mb-3 xl:mb-5 py-8 xl:py-10 px-4">
+            <div className="relative my-4 bg-gradient-to-l from-[#0ecad4d5]  to-[#c5ed12] via-[#b4309e] rounded text-center mb-2 md:mb-3 xl:mb-5 py-8 xl:py-10 px-4">
               <h1 className="font-bold text-[20px] xl:text-[30px] text-white">
                 LICENSED &
               </h1>
@@ -95,11 +95,11 @@ const AboutContent = () => {
       </div>
 
       {/* staff */}
-      <div className="flex justify-center pr-6 border-b-2 border-l-2 border-[#27eec3] p-4 rounded">
+      <div className="flex justify-center pr-6 border-b-2 border-l-2 border-[#a234a3] p-4 rounded">
         <div className="w-full">
           <div>
             <h1 className="font-bold text-4xl">Highly-Qualified</h1>
-            <div className="relative my-4 bg-gradient-to-l from-[#ce0909] via-[#3512e3] to-[#c0cf1c] rounded text-center mb-2 md:mb-3 xl:mb-5 py-8 xl:py-10 px-4">
+            <div className="relative my-4 bg-gradient-to-l from-[#23f4ff9a]  to-[#c5ed12] via-[#b4309e] rounded text-center mb-2 md:mb-3 xl:mb-5 py-8 xl:py-10 px-4">
               <h1 className="font-bold text-[20px] xl:text-[30px] text-white">
                 TEACHERS &
               </h1>
@@ -139,11 +139,11 @@ const AboutContent = () => {
       </div>
 
       {/* meals */}
-      <div className="flex justify-center pr-6 border-b-2 border-l-2 border-[#304def] p-4 rounded">
+      <div className="flex justify-center pr-6 border-b-2 border-l-2 border-[#a234a3] p-4 rounded">
         <div className="w-full">
           <div>
             <h1 className="font-bold text-4xl">Nutritious</h1>
-            <div className="relative my-4 bg-gradient-to-l from-[#eccb13] via-[#12e366] to-[#1c8acf] rounded text-center mb-2 md:mb-3 xl:mb-5 py-8 xl:py-10 px-4">
+            <div className="relative my-4 bg-gradient-to-l from-[#29999f8c]  to-[#c5ed12] via-[#b4309e] rounded text-center mb-2 md:mb-3 xl:mb-5 py-8 xl:py-10 px-4">
               <h1 className="font-bold text-[20px] xl:text-[30px] text-white">
                 MEALS &
               </h1>

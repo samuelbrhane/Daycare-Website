@@ -20,10 +20,10 @@ const Footer = () => {
                     className="w-full h-full"
                   />
                   <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-                    <h1 className="text-center text-4xl text-[#a123a2] font-[Lora] font-bold">
+                    <h1 className="text-center xl:text-3xl 2xl:text-4xl text-[#b6ad32] font-[Lora] font-bold">
                       Addis-Maya{" "}
-                      <span className="text-3xl text-black font-[Lobster]">
-                        Childcare and Preschool
+                      <span className="2xl:text-3xl xl:text-2xl text-black">
+                        Childcare Center
                       </span>
                     </h1>
                   </div>
@@ -51,7 +51,7 @@ const Footer = () => {
 
           <div className="justify-center pt-8 md:pt-12 footerLink">
             <div>
-              <h1 className="font-bold text-4xl font-[Lobster] md:text-[30px] mb-8">
+              <h1 className="font-bold text-4xl font-[Lora] italic md:text-[30px] mb-8">
                 Quick Links
               </h1>
               <div className="flex flex-col">
@@ -74,7 +74,7 @@ const Footer = () => {
 
           <div className="flex justify-center pt-8 md:pt-12">
             <div>
-              <h1 className="font-bold text-4xl font-[Lobster] md:text-[30px] mb-8">
+              <h1 className="font-bold text-4xl font-[Lora] italic md:text-[30px] mb-8">
                 Photo Gallery
               </h1>
               <div className="grid grid-cols-3 gap-4">
