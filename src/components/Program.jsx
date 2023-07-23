@@ -4,7 +4,7 @@ import Image from "next/image";
 
 const Program = () => {
   return (
-    <section id="Program" className="relative">
+    <section id="Programs" className="relative">
       <img
         src="/white-bg.png"
         alt="bg"

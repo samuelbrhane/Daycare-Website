@@ -6,7 +6,7 @@ export const links = [
   },
   {
     id: 2,
-    title: "Program",
+    title: "Programs",
     image: "/folder.png",
   },
   {
