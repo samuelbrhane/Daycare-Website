@@ -10,18 +10,18 @@
 
 @layer components {
   .input {
-    @apply outline-none p-2 md:p-4 rounded shadow-sm border-2 border-[#38c6ed];
+    @apply outline-none p-2 md:p-4 rounded shadow-sm border-2 border-[#27980b93];
   }
   .linkImage {
-    @apply lg:w-[60px] lg:h-[50px] w-[40px] h-[30px];
+    @apply lg:w-[55px] lg:h-[45px] w-[40px] h-[30px];
   }
 
   .links {
-    @apply lg:flex items-center gap-16 2xl:gap-24;
+    @apply lg:flex items-center gap-16 2xl:gap-20;
   }
 
   .link {
-    @apply flex flex-col items-center hover:scale-105 gap-2 hover:text-[#b6ad32] text-[#29589f];
+    @apply flex flex-col items-center hover:scale-[1.03] gap-2 hover:text-[#28980b] text-[#f38600];
   }
   .link > p {
     @apply font-[12px] lg:font-semibold font-[Lora];
@@ -35,7 +35,7 @@
   }
 
   .heroText {
-    @apply px-24 md:px-48 lg:px-64 xl:px-80;
+    @apply px-32 md:px-56 lg:px-72 xl:px-[300px];
   }
 
   .heroTitle {
@@ -48,11 +48,11 @@
   }
 
   .corner {
-    @apply shadow-md rounded px-6 py-4 border-r-[8px] border-[#a234a3] h-full hover:scale-[1.01];
+    @apply shadow-md rounded px-6 py-4 border-r-[8px] border-[#28980b] h-full hover:scale-[1.01];
   }
 
   .title {
-    @apply text-[30px] 2xl:text-[40px] mb-2 md:mb-4 lg:mb-6 font-bold font-[Lora] italic;
+    @apply text-[38px] 2xl:text-[50px] mb-2 md:mb-4 lg:mb-6 font-bold font-[Lora] italic;
   }
 
   .subtitle {
