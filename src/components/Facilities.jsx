@@ -15,12 +15,12 @@ const Facilities = () => {
         }}
       >
         <h1 className="subtitle">
-          Our <span className="text-[#b4309e]">Facilities</span>
+          Our <span className="text-[#f38600]">Facilities</span>
         </h1>
-        <p className="font-[Lora] font-bold max-w-[400px]">
-          Discover our school facilities, including a library, art room, healthy
-          canteen and outdoor playground, which offer endless opportunities for
-          exploration and discovery.
+        <p className="text-[14px] lg:text-[15px] max-w-[400px]">
+          Discover our school facilities, including a healthy canteen, an
+          activity room, a sleeping room and outdoor playground, which offer
+          endless opportunities for exploration and discovery.
         </p>
       </motion.div>
 
@@ -55,14 +55,14 @@ const Facilities = () => {
                 </div>
               </div>
               <div
-                className={`h-[300px] w-[300px] rounded-full ${facility.mainColor} ${facility.hoverColor} group-hover:text-black text-white`}
+                className={`h-[300px] w-[300px] rounded-full ${facility.mainColor} ${facility.hoverColor} group-hover:text-white text-black`}
               >
-                <div className="flex items-center justify-center w-full h-full p-10 text-center">
+                <div className="flex items-center justify-center w-full h-full p-2 text-center">
                   <div>
                     <h1 className="font-bold mb-4 text-[30px] font-[Lora]">
                       {facility.title}
                     </h1>
-                    <p className="font-[Lora] font-semibold">
+                    <p className="text-[14px] lg:text-[15px]">
                       {facility.subtitle}
                     </p>
                   </div>

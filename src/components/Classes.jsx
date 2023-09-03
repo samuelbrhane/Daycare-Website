@@ -15,15 +15,15 @@ const Classes = () => {
         }}
       >
         <h1 className="subtitle">
-          Our <span className="text-[#b4309e]">Classes</span>
+          Our <span className="text-[#f38600]">Classes</span>
         </h1>
-        <p className="font-[Lora] font-bold max-w-[400px]">
-          Explore the diverse range of classes offered at our daycare, where
+        <p className="text-[14px] lg:text-[15px] max-w-[400px]">
+          Explore the diverse range of classes offered at our playschool, where
           children can engage in a variety of educational and creative pursuits.
         </p>
       </motion.div>
 
-      <div className="mt-4 md:mt-6 lg:mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3">
+      <div className="mt-4 md:mt-6 lg:mt-8 grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4">
         {classes.map((item) => {
           return (
             <div
@@ -38,7 +38,7 @@ const Classes = () => {
                   duration: item.duration,
                 }}
               >
-                <div className="w-[300px] h-[300px] rounded-full overflow-hidden z-20 border-[#b6328ed7] border-[10px]">
+                <div className="w-[300px] h-[300px] rounded-full overflow-hidden z-20 border-[#28980b] border-[10px]">
                   <Image
                     src={item.image}
                     alt="classes"
@@ -47,13 +47,10 @@ const Classes = () => {
                     className="w-full h-full"
                   />
                 </div>
-                <div className="bg-[#b6328ed7] mt-[-30px] rounded px-8 py-6 text-white">
+                <div className="bg-[#28980b] mt-[-30px] rounded px-8 py-6 text-white">
                   <h1 className="text-center font-bold font-[Lora] italic text-4xl pt-8 pb-2">
                     {item.title}
                   </h1>
-                  <h2 className="text-center font-bold font-[Lora]">
-                    {item.subtitle}
-                  </h2>
                 </div>
               </motion.div>
             </div>

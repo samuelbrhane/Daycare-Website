@@ -2,6 +2,8 @@ import { Link } from "react-scroll";
 import { useState } from "react";
 import { links } from "@/utils/links";
 import { Sidebar } from ".";
+// #f38600
+// #28980b
 
 const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
@@ -9,15 +11,10 @@ const Header = () => {
     <section>
       <div className="fixed top-0 left-0 w-full bg-white px-4 md:px-12 lg:px-16 xl:px-20 py-2 shadow-md flex justify-between items-center z-50">
         {/* header logo */}
-        <div className="relative w-[160px] h-[90px] xl:w-[250px] xl:h-[140px] ">
+        <div className="relative w-[160px] h-[90px] xl:w-[220px] xl:h-[160px] ">
           <img src="/logo-bg.png" alt="logo-bg" className="w-full h-full" />
           <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-            <h1 className="text-center xl:text-3xl 2xl:text-4xl text-[#b6ad32] font-[Lora] font-bold">
-              Addis-Maya{" "}
-              <span className="2xl:text-3xl xl:text-2xl text-black">
-               Childcare Center
-              </span>
-            </h1>
+            <img src="/main-logo.jpeg" alt="header-logo" />
           </div>
         </div>
 

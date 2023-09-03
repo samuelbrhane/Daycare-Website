@@ -1,5 +1,5 @@
-import { FirstHero, HeroIntro, SecondHero, ThirdHero } from ".";
 import Image from "next/image";
+import { HeroContent } from ".";
 
 const Hero = () => {
   return (
@@ -18,23 +18,23 @@ const Hero = () => {
 
         <div className="carousel-inner h-[182px] md:h-[330px] lg:h-[430px] xl:h-[540px] 2xl:h-[590px]">
           <div className="item active heroContainer relative">
-            <Image src="/gallery3.jpeg" fill alt="hero" className="heroImage" />
-            <HeroIntro />
+            <Image src="/gallery1.jpeg" fill alt="hero" className="heroImage" />
+            <HeroContent firstText="Inquiry &" secondText="Exploration" />
           </div>
 
           <div className="item heroContainer">
-            <Image src="/addis10.jpeg" fill alt="hero" className="heroImage" />
-            <FirstHero />
+            <Image src="/hero13.jpeg" fill alt="hero" className="heroImage" />
+            <HeroContent firstText="Engaging &" secondText="Stimulating" />
           </div>
 
           <div className="item heroContainer">
-            <Image src="/addis13.jpeg" fill alt="hero" className="heroImage" />
-            <SecondHero />
+            <Image src="/hero144.jpeg" fill alt="hero" className="heroImage" />
+            <HeroContent firstText="Caring &" secondText="Communicator" />
           </div>
 
           <div className="item heroContainer">
-            <Image src="/addis11.jpeg" fill alt="hero" className="heroImage" />
-            <ThirdHero />
+            <Image src="/hero12.jpeg" fill alt="hero" className="heroImage" />
+            <HeroContent firstText="Agency &" secondText="Reflective" />
           </div>
         </div>
 

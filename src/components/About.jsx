@@ -1,16 +1,17 @@
-import Image from "next/image";
 import React from "react";
 import { motion } from "framer-motion";
-import { AboutContent, VisionMission } from ".";
-import { GiPlantWatering } from "react-icons/gi";
-import { BiSolidNetworkChart } from "react-icons/bi";
 
 const About = () => {
   return (
     <section
       id="About Us"
-      className="px-4 md:px-12 lg:px-16 xl:px-20 pt-8 md:pt-12 lg:pt-20 xl:pt-28"
+      className="px-4 md:px-12 lg:px-16 xl:px-20 pt-8 md:pt-12 lg:pt-20 xl:pt-28 relative"
     >
+      <img
+        src="/white-bg.png"
+        alt="bg"
+        className="absolute top-[-35px] md:top-[-70px] lg:top-[-60px] xl:top-[-70px] 2xl:top-[-65px] left-0 right-0 w-full"
+      />
       <div className="grid grid-cols-1 2xl:grid-cols-2 gap-8 md:gap-12 xl:gap-16 w-full ">
         <motion.div
           className="relative"
@@ -20,24 +21,38 @@ const About = () => {
             duration: 0.5,
           }}
         >
-          <h1 className="text-[#29589f] title">
+          <h1 className="text-[#f38600] title">
             About <span className="text-black">Us</span>
           </h1>
-          <p className="mb-4">
-            At Addis-Maya, we strive to nurture a passion for learning and
-            discovery in every child. Our priority is to create a secure and
-            welcoming environment that fosters growth, motivation, and
-            creativity. We firmly believe that play is an essential component of
-            learning, and our curriculum is designed to cater to the holistic
-            development of each child - from cognitive and social skills to
-            physical, emotional, linguistic, self-help, and artistic abilities.
+          <p className="mb-[17px] text-[14px] lg:text-[16px]">
+            Addis MAYA playschool is established by a passionate duo, Sewbesew
+            Tadele and Yamrot Kassa. They possess more than 12 years of
+            experience in school operations at the International Community
+            School of Addis Ababa (ICS Addis) and hold certifications in
+            Montessori, Reggio Emilia early year&apos;s curriculums, and Asian
+            preschool management.
           </p>
-
-          <VisionMission />
+          <p className="mb-[17px] text-[14px] lg:text-[16px]">
+            Furthermore, they have both earned master&apos;s degrees in project
+            management and business administration from Addis Ababa and Lincoln
+            University. Both moms themselves, they share a strong passion to
+            helping children explore and thrive. they have a great commitment to
+            employing diverse and effective teaching methodologies. Their
+            approaches prioritize hands-on learning, individualized instruction,
+            and creating a stimulating environment for young learners.
+          </p>
+          <p className="mb-4 text-[14px] lg:text-[16px]">
+            By combining their extensive experience in school operations,
+            diverse teaching methodologies, and strong academic qualifications.
+            Sewbesew and Yamrot are well-prepared to lead and manage Addis MAYA
+            playschool. Their qualifications and expertise suggest a dedication
+            to providing high-quality education and creating a nurturing
+            environment for young children to thrive.
+          </p>
         </motion.div>
 
         <motion.div
-          className="p-6 bg-[#b4309e] rounded-md border-[10px] border-[#3478df] relative"
+          className="p-6 bg-[#f38600] rounded-md border-[10px] border-[#28980b] relative"
           initial={{ bottom: -50 }}
           whileInView={{ bottom: 0 }}
           transition={{
@@ -51,85 +66,6 @@ const About = () => {
           />
         </motion.div>
       </div>
-
-      <motion.div
-        initial={{ left: -50 }}
-        whileInView={{ left: 0 }}
-        transition={{
-          duration: 0.5,
-        }}
-        className="mt-8 relative"
-      >
-        <h1 className="font-bold text-4xl font-[Lora] mb-2">
-          Why you should choose Addis Maya
-        </h1>
-        <h2 className="font-bold text-2xl font-[Lora] mb-6">
-          We are dedicated to inspiring your children!
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 md:gap-12 gap-4">
-          <div className="flex gap-4 items-center">
-            <div className="min-w-[80px] min-h-[80px] text-[#b6ad32] rounded-full bg-gradient-to-t from-[#000000] to-[#29589f] flex items-center justify-center">
-              <GiPlantWatering className="w-[50px] h-[50px]" />
-            </div>
-
-            <p>
-              Our mixed curriculum includes projects with play, music, art,
-              sports, and book lessons to create a developmentally appropriate
-              and academically rigorous foundation. This approach prepares
-              children for social and emotional success in future schooling and
-              adulthood.
-            </p>
-          </div>
-          <div className="flex gap-4 items-center">
-            <div className="min-w-[80px] min-h-[80px] text-[#b6ad32] rounded-full bg-gradient-to-t from-[#000000] to-[#29589f] flex items-center justify-center">
-              <BiSolidNetworkChart className="w-[50px] h-[50px]" />
-            </div>
-
-            <p>
-              Our warm and nurturing environment encourages purposeful play in
-              the compound. We provide a unique and progressive learning
-              environment that fosters intellectual, physical, and social growth
-              in each student. Our staff members have limited shift working
-              hours, and our students stay on campus for 7 to 12 hours.
-            </p>
-          </div>
-        </div>
-      </motion.div>
-
-      <motion.div
-        initial={{ bottom: -50 }}
-        whileInView={{ bottom: 0 }}
-        transition={{
-          duration: 0.5,
-        }}
-        className="grid grid-cols-1 md:grid-cols-2 mt-8 md:gap-12 gap-4 relative"
-      >
-        <div>
-          <h1 className="font-bold mb-4 font-[Lora] text-4xl text-[#2e87ba]">
-            The Founders
-          </h1>
-          <p>
-            Addis-Maya is founded by two aspiring and experienced women with a
-            combined 15 years of international school experience. Both moms
-            themselves, Sewbesew and Yamrot share a passion to nurture curiosity
-            and inspire creativity in children.
-          </p>
-        </div>
-
-        <div>
-          <h1 className="font-bold mb-4 font-[Lora] text-4xl text-[#2e87ba]">
-            Our Staff
-          </h1>
-          <p>
-            We require on-going training for our staff through state classes,
-            orientation videos, in-house training, and other certified
-            professionals in the education field. All of our staff are trained
-            in First Aid and CPR. We also have all required clearances to work
-            with children.
-          </p>
-        </div>
-      </motion.div>
-      <AboutContent />
     </section>
   );
 };

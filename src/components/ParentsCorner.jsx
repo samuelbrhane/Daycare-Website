@@ -1,5 +1,5 @@
 import React from "react";
-import { FAQ, Gallery, Testimonials } from ".";
+import { FAQ, Gallery, Testimonials, WhyAddis } from ".";
 import { motion } from "framer-motion";
 
 const ParentsCorner = () => {
@@ -17,14 +17,14 @@ const ParentsCorner = () => {
           }}
           className="relative"
         >
-          <div className="mb-16 text-center flex flex-col justify-center  items-center">
-            <h1 className="text-[#29589f] title text-center md:px-20 lg:px-40 xl:px-56">
+          <div className="mb-8 text-center flex flex-col justify-center  items-center">
+            <h1 className="text-[#f38600] title text-center md:px-20 lg:px-40 xl:px-56">
               Parents <span className="text-black">Corner</span>
             </h1>
-            <p className="font-semibold mb-4 font-[Lora] max-w-[600px]">
+            <p className="text-[15px] lg:text-[16px] mb-4 text-center max-w-[700px]">
               Explore our Parents Corner for frequently asked questions,
               heartfelt testimonials, and captivating images showcasing the
-              vibrant experiences at our daycare.
+              vibrant experiences at our playschool.
             </p>
           </div>
         </motion.div>
@@ -35,9 +35,9 @@ const ParentsCorner = () => {
             transition={{
               duration: 0.5,
             }}
-            className="relative grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-8 xl:gap-16 px-4 md:px-12 lg:px-16 xl:px-20 mt-6 md:mt-12"
+            className="relative grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-4 md:gap-8 xl:gap-16 px-4 md:px-12 lg:px-16 xl:px-20"
           >
-            <p className="corner">
+            <p className="corner text-[14px] lg:text-[15px]">
               We prioritize weekly communication with parents to keep them
               informed about their child&apos;s progress. At the end of each
               day, our professional nannies provide an overview of the
@@ -45,14 +45,14 @@ const ParentsCorner = () => {
               individually to discuss their child&apos;s achievements and areas
               for improvement.
             </p>
-            <p className="my-2 corner">
+            <p className="my-2 corner text-[14px] lg:text-[15px]">
               Before each day begins, our caretakers are available to answer any
-              questions or concerns. We also use an online app to simplify
+              questions or concerns. We also use an online tool to simplify
               communication between teachers and keep parents up-to-date on
               their child&apos;s activities, events, and volunteer
               opportunities.
             </p>
-            <p className="mb-2 corner">
+            <p className="mb-2 corner text-[14px] lg:text-[15px]">
               Mid-year and end-of-year reports provide a comprehensive
               developmental profile of each child&apos;s progress in various
               areas such as social, cognitive, emotional, and physical
@@ -62,6 +62,7 @@ const ParentsCorner = () => {
             </p>
           </motion.div>
           <FAQ />
+          <WhyAddis />
           <Gallery />
         </div>
       </div>

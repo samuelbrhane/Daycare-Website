@@ -16,23 +16,23 @@ const ProgramContent = () => {
           duration: 1,
         }}
       >
-        <h1 className="text-[#29589f] title relative">
+        <h1 className="text-[#f38600] title relative">
           Our <span className="text-black">Programs</span>
         </h1>
-        <p className="mb-4">
+        <p className="mb-4 text-[14px] lg:text-[16px]">
           We offer a unique learning environment and innovative curricula for
-          toddlers and pre-schoolers from ages 1 to 4. Our program is a 5
+          toddlers and pre-schoolers from ages 1 to 5. Our program is a 5
           days-per-week, 5 or 6 hours per day program, focusing on sensory and
           social development through art, sports, music, science, language, and
           math to support each student as he or she develops confidence in
           learning. Our classes are taught in a fun, caring, nurturing, positive
           and clean environment.
         </p>
-        <p className="mt-2 mb-4">
+        <p className="mt-2 mb-4 text-[14px] lg:text-[16px]">
           Our innovative curriculum builds beyond the fundamentals as teachers
-          encourage interactive literacy and thematic learning experiences that
-          strengthen social and intellectual learning through physical science,
-          social studies, gymnastics, dance and art. Our doors are open from 7am
+          encourage interactive literacy and make connection that strengthen
+          social and intellectual learning through physical science, social
+          studies, gymnastics, dance and art. Our doors are open from 7am
           through 6pm. We also offer trainings to other day cares on our methods
           and general child protection. We use a 360° approach by training
           caretakers, children, and parents.
@@ -69,10 +69,10 @@ const ProgramContent = () => {
           <div className="flex justify-center">
             <div>
               <h1 className="font-bold text-4xl">Program for</h1>
-              <h1 className="font-bold text-[28px] text-[#4166ee] mb-1">
+              <h1 className="font-bold text-[28px] text-[#28980b] mb-1">
                 TODDLERS
               </h1>
-              <div className="w-full h-[6px] rounded bg-gradient-to-l from-[#29999f]  to-[#c5ed12] via-[#b4309e]" />
+              <div className="w-full h-[6px] rounded bg-gradient-to-r from-[#f38600]  to-transparent via-[#28980b]" />
               <p className="mt-4">
                 Introduction to play, creative arts, language development &
                 sensory exploration.
@@ -83,10 +83,10 @@ const ProgramContent = () => {
           <div className="flex justify-center">
             <div>
               <h1 className="font-bold text-4xl">Program for</h1>
-              <h1 className="font-bold text-[28px] text-[#b6ad32] mb-1">
-                PRESCHOOL
+              <h1 className="font-bold text-[28px] text-[#f38600] mb-1">
+                PRESCHOOLERS
               </h1>
-              <div className="w-full h-[6px] rounded bg-gradient-to-l from-[#29999f]  to-[#c5ed12] via-[#b4309e]" />
+              <div className="w-full h-[6px] rounded bg-gradient-to-r from-[#f38600]  to-transparent via-[#28980b]" />
               <p className="mt-4">
                 Developing the critical thinking and problem-solving skills they
                 will need to succeed in school.
@@ -106,7 +106,7 @@ const ProgramContent = () => {
         }}
       >
         <div className="flex justify-center rounded-xl">
-          <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px] rounded-full border-[10px] border-[#29589fb1] hover:border-[#29589f] overflow-hidden">
+          <div className="w-[300px] h-[300px] md:w-[400px] md:h-[400px] 2xl:w-[500px] 2xl:h-[500px] rounded-full border-[10px] border-[#27980bb3] hover:border-[#28980b] overflow-hidden">
             <img
               src="/addis7.jpeg"
               alt="program"
@@ -115,7 +115,7 @@ const ProgramContent = () => {
           </div>
         </div>
 
-        <div className="w-[180px] h-[180px] md:w-[240px] md:h-[240px] 2xl:w-[280px] 2xl:h-[280px] overflow-hidden rounded-full border-[10px] border-[#b4309e9c] hover:border-[#b4309e] hover:scale-[1.01] absolute bottom-[-50px] md:top-[250px] xl:top-[300px] 2xl:top-[350px] left-10">
+        <div className="w-[180px] h-[180px] md:w-[240px] md:h-[240px] 2xl:w-[280px] 2xl:h-[280px] overflow-hidden rounded-full border-[10px] border-[#f386009c] hover:border-[#f38600] hover:scale-[1.01] absolute bottom-[-50px] md:top-[250px] xl:top-[300px] 2xl:top-[350px] left-10">
           <Image
             src="/addis3.jpeg"
             fill
@@ -124,7 +124,7 @@ const ProgramContent = () => {
           />
         </div>
 
-        <div className="w-[180px] h-[180px] md:w-[240px] md:h-[240px] 2xl:w-[280px] 2xl:h-[280px] rounded-full border-[10px] border-[#b4309e9c] hover:border-[#b4309e] hover:scale-[1.01] absolute bottom-[-50px] md:top-[250px] xl:top-[300px] 2xl:top-[350px] right-10 overflow-hidden">
+        <div className="w-[180px] h-[180px] md:w-[240px] md:h-[240px] 2xl:w-[280px] 2xl:h-[280px] rounded-full border-[10px] border-[#f386009c] hover:border-[#f38600] hover:scale-[1.01] absolute bottom-[-50px] md:top-[250px] xl:top-[300px] 2xl:top-[350px] right-10 overflow-hidden">
           <Image
             src="/addis4.jpeg"
             fill

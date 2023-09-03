@@ -7,8 +7,8 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="mt-6 md:mt-8 xl:mt-12   relative bg-[url('/addis4.jpeg')] bg-cover bg-center h-[630px] md:h-[410px] 2xl:h-[400px] text-white bg-no-repeat">
-      <div className="absolute top-0 left-0 bottom-0 w-full px-4 md:px-12 lg:px-16 xl:px-20 bg-[#041210da] py-8 md:py-12">
+    <div className="mt-6 md:mt-8 xl:mt-12 relative bg-[url('/addis4.jpeg')] bg-cover bg-center h-[680px] md:h-[410px] 2xl:h-[400px] text-white bg-no-repeat">
+      <div className="absolute top-0 left-0 bottom-0 w-full px-4 md:px-12 lg:px-16 xl:px-20 bg-[#041210da] py-4 md:py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="flex justify-center">
             <div>
@@ -19,33 +19,26 @@ const Footer = () => {
                     alt="logo-bg"
                     className="w-full h-full"
                   />
-                  <div className="absolute top-[50%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
-                    <h1 className="text-center xl:text-3xl 2xl:text-4xl text-[#b6ad32] font-[Lora] font-bold">
-                      Addis-Maya{" "}
-                      <span className="2xl:text-3xl xl:text-2xl text-black">
-                        Childcare Center
-                      </span>
-                    </h1>
+                  <div className="absolute top-[45%] left-[50%] translate-x-[-50%] translate-y-[-50%]">
+                    <img src="/main-logo.jpeg" alt="header-logo" />
                   </div>
                 </div>
               </div>
 
               <p className="flex items-center gap-2">
-                {" "}
-                <FaLocationDot /> +251911909090
+                <FaLocationDot />
+                Lideta SubCity, Addis Ababa, Ethiopia
               </p>
 
               <p className="flex items-center gap-2">
-                {" "}
-                <AiTwotoneMail /> info@example.com
+                <AiFillPhone /> +2519 0692 9258
               </p>
 
               <p className="flex items-center gap-2">
-                <AiFillPhone />
-                Bole SubCity, Addis Ababa, Ethiopia
+                <AiTwotoneMail /> info@addis-maya.com
               </p>
 
-              <p>Addis-Maya Child Care and Pre School</p>
+              <p>Addis-Maya Playschool</p>
             </div>
           </div>
 
@@ -63,7 +56,7 @@ const Footer = () => {
                     style={{ cursor: "pointer" }}
                     to={link.title}
                     key={link.id}
-                    className="mb-6 hover:text-[#6b98f2]"
+                    className="mb-6 hover:text-[#f38600]"
                   >
                     {link.title}
                   </Link>
@@ -79,41 +72,56 @@ const Footer = () => {
               </h1>
               <div className="grid grid-cols-3 gap-4">
                 <img
-                  src="/addis1.jpeg"
+                  src="/footer1.jpeg"
                   alt="footer"
-                  className="w-[100px] h-[80px] rounded-xl"
+                  className="w-[100px] h-[70px] rounded-xl"
                 />
                 <img
-                  src="/addis2.jpeg"
+                  src="/footer2.jpeg"
                   alt="footer"
-                  className="w-[100px] h-[80px] rounded-xl"
+                  className="w-[100px] h-[70px] rounded-xl"
                 />
                 <img
-                  src="/addis3.jpeg"
+                  src="/footer3.jpeg"
                   alt="footer"
-                  className="w-[100px] h-[80px] rounded-xl"
+                  className="w-[100px] h-[70px] rounded-xl"
                 />
                 <img
-                  src="/addis4.jpeg"
+                  src="/footer4.jpeg"
                   alt="footer"
-                  className="w-[100px] h-[80px] rounded-xl"
+                  className="w-[100px] h-[70px] rounded-xl"
                 />
                 <img
-                  src="/addis5.jpeg"
+                  src="/footer5.jpeg"
                   alt="footer"
-                  className="w-[100px] h-[80px] rounded-xl"
+                  className="w-[100px] h-[70px] rounded-xl"
                 />
                 <img
-                  src="/addis6.jpeg"
+                  src="/footer6.jpeg"
                   alt="footer"
-                  className="w-[100px] h-[80px] rounded-xl"
+                  className="w-[100px] h-[70px] rounded-xl"
+                />
+                <img
+                  src="/footer7.jpeg"
+                  alt="footer"
+                  className="w-[100px] h-[70px] rounded-xl"
+                />
+                <img
+                  src="/footer8.jpeg"
+                  alt="footer"
+                  className="w-[100px] h-[70px] rounded-xl"
+                />
+                <img
+                  src="/footer9.jpeg"
+                  alt="footer"
+                  className="w-[100px] h-[70px] rounded-xl"
                 />
               </div>
             </div>
           </div>
         </div>
         <div className="border-t-2 border-[#a234a3] mt-4 border-dotted">
-          <p className="mt-4 md:mt-6">Copyright 2023 Addis-Maya Child Care.</p>
+          <p className="mt-4 md:mt-6">Copyright 2023 Addis-Maya Playschool.</p>
           <p>All Rights Reserved.</p>
         </div>
       </div>

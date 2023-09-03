@@ -23,7 +23,7 @@ const FAQ = () => {
           {faq.map((item, index) => (
             <div
               key={index}
-              className={`border-b border-gray-200 ${
+              className={`border-b text-[14px] lg:text-[15px] border-gray-200 ${
                 index === activeQuestion ? "bg-gray-100" : ""
               }`}
             >
@@ -50,7 +50,7 @@ const FAQ = () => {
               <div
                 className={`px-6 pb-0 transition-max-height flex items-center duration-[1s] ease-out overflow-hidden ${
                   index === activeQuestion
-                    ? "h-[70px] bg-[#1b2820b7] border-t-2 text-white border-[#a2239e] border-dotted"
+                    ? "h-[70px] bg-[#1b2820b7] border-t-2 text-white border-[#28980b] border-dotted"
                     : "h-0"
                 }`}
               >
@@ -61,7 +61,7 @@ const FAQ = () => {
         </motion.div>
 
         <motion.div
-          className="p-6 bg-[#b4309e] rounded-md border-[10px] border-[#3478df] relative"
+          className="p-6 border-[#28980b] rounded-md border-[10px] bg-[#f38600] relative"
           initial={{ bottom: -50 }}
           whileInView={{ bottom: 0 }}
           transition={{

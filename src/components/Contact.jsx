@@ -19,34 +19,33 @@ const Contact = () => {
         className="relative"
       >
         <div className="text-center flex flex-col justify-center  items-center">
-          <h1 className="text-[#29589f] title">
+          <h1 className="text-[#f38600] title">
             Contact <span className="text-black">Us</span>
           </h1>
-          <p className="font-semibold mb-4 font-[Lora] max-w-[500px]">
+          <p className="text-[15px] lg:text-[16px] mb-4 text-center max-w-[720px]">
             Please feel free to contact us to set up a time when you can come
-            tour our facility and meet our staff. We look forward to seeing you
-            and your children!
+            tour our facility and meet our staff.
           </p>
         </div>
 
         <div className="grid grid-cols-1 md:grid-cols-3 mt-4 md:mt-8 gap-6">
           <div className="flex items-center justify-center">
             <div className="flex flex-col items-center gap-3">
-              <FaLocationDot className="bg-[#d71ae1] p-6 w-28 h-28 rounded-full text-[#f3f046] " />
-              <p>Bole SubCity, Addis Ababa, Ethiopia</p>
+              <FaLocationDot className="text-[#f38600] p-6 w-28 h-28 rounded-full bg-[#27980b47] " />
+              <p>Lideta SubCity, Addis Ababa, Ethiopia</p>
             </div>
           </div>
           <div className="flex items-center justify-center">
             <div className="flex flex-col items-center gap-3">
-              <AiTwotoneMail className="bg-[#d71ae1] p-6 w-28 h-28 rounded-full text-[#f3f046] " />
-              <p>info@example.com</p>
+              <AiTwotoneMail className="text-[#f38600] p-6 w-28 h-28 rounded-full bg-[#27980b47]" />
+              <p>info@addis-maya.com</p>
             </div>
           </div>
 
           <div className="flex items-center justify-center">
             <div className="flex flex-col items-center gap-3">
-              <AiFillPhone className="bg-[#d71ae1] p-6 w-28 h-28 rounded-full text-[#f3f046] " />
-              <p>+251911909090</p>
+              <AiFillPhone className="text-[#f38600] p-6 w-28 h-28 rounded-full bg-[#27980b47] " />
+              <p>+2519 0692 9258</p>
             </div>
           </div>
         </div>

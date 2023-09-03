@@ -3,7 +3,7 @@ import { Classes, Facilities, Schedules } from ".";
 
 const Information = () => {
   return (
-    <section id="Information" className="relative">
+    <section id="Visit" className="relative">
       <img
         src="/blog-divider.png"
         alt="bg"
@@ -14,14 +14,14 @@ const Information = () => {
         <div className="pt-12 md:pt-20 lg:pt-32 xl:pt-36">
           {/* intro */}
           <div className="mb-16 flex flex-col items-center">
-            <h1 className="text-[#29589f] title text-center md:px-20 lg:px-40 xl:px-56">
-              Information <span className="text-black">Center</span>
+            <h1 className="text-[#f38600] title text-center md:px-20 lg:px-40 xl:px-56">
+              Visit
             </h1>
-            <p className="font-bold mb-4 text-center max-w-[700px] font-[Lora]">
-              Our daycare facility offers a nurturing and enriching environment
-              for your child&apos; early development. With spacious classrooms,
-              well-equipped play areas, and experienced staff, we provide a safe
-              and engaging experience.
+            <p className="text-[15px] lg:text-[16px] mb-4 text-center max-w-[700px]">
+              Our playschool facility offers a nurturing and enriching
+              environment for your child&apos; early development. With spacious
+              classrooms, well-equipped play areas, and experienced staff, we
+              provide a safe and engaging experience.
             </p>
           </div>
 
