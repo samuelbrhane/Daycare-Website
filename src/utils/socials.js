@@ -5,6 +5,18 @@ import { MdEmail } from "react-icons/md";
 
 export const socials = [
   {
+    id: 3,
+    name: "email",
+    icon: <MdEmail />,
+    link: "mailto:info@addis-maya.com?",
+  },
+  {
+    id: 4,
+    name: "linkedin",
+    icon: <ImLinkedin />,
+    link: "https://www.linkedin.com/company/addis-maya-play-school/",
+  },
+  {
     id: 1,
     name: "facebook",
     icon: <BsFacebook />,
@@ -15,17 +27,5 @@ export const socials = [
     name: "twitter",
     icon: <AiFillTwitterCircle />,
     link: "https://www.twitter.com",
-  },
-  {
-    id: 3,
-    name: "email",
-    icon: <MdEmail />,
-    link: "https://www.facebook.com",
-  },
-  {
-    id: 4,
-    name: "linkedin",
-    icon: <ImLinkedin />,
-    link: "https://www.linkedin.com",
   },
 ];

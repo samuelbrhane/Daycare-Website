@@ -5,20 +5,19 @@ export const links = [
     image: "/house.png",
   },
   {
+    id: 4,
+    title: "About Us",
+    image: "/search.png",
+  },
+  {
     id: 2,
     title: "Programs",
     image: "/folder.png",
   },
   {
     id: 3,
-    title: "Information",
+    title: "Visit",
     image: "/folders.png",
-  },
-
-  {
-    id: 4,
-    title: "About Us",
-    image: "/search.png",
   },
 
   {
