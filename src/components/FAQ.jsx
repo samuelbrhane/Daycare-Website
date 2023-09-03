@@ -50,7 +50,7 @@ const FAQ = () => {
               <div
                 className={`px-6 pb-0 transition-max-height flex items-center duration-[1s] ease-out overflow-hidden ${
                   index === activeQuestion
-                    ? "h-[70px] bg-[#1b2820b7] border-t-2 text-white border-[#28980b] border-dotted"
+                    ? "h-[85px] bg-[#1b2820b7] border-t-2 text-white border-[#28980b] border-dotted"
                     : "h-0"
                 }`}
               >
