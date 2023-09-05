@@ -39,7 +39,7 @@ const ParentsCorner = () => {
             <p className="corner text-[14px] lg:text-[15px]">
               We prioritize weekly communication with parents to keep them
               informed about their child&apos;s progress. At the end of each
-              day, our professional nannies provide an overview of the
+              day, our professional caregivers provide an overview of the
               day&apos;s activities and connect with each parent or caregiver
               individually to discuss their child&apos;s achievements and areas
               for improvement.
