@@ -42,7 +42,7 @@ export default function Home() {
           content="Welcome to Addis-Maya Playschool. We provide quality early childhood education."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/main-logo.jpeg" />
 
         {/* Open Graph and Twitter Card tags for social sharing */}
         <meta property="og:title" content="Addis-Maya Playschool" />
