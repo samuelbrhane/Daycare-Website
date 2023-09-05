@@ -20,7 +20,7 @@ export const socials = [
     id: 1,
     name: "facebook",
     icon: <BsFacebook />,
-    link: "https://www.facebook.com/profile.php?id=61551049106198",
+    link: "https://www.facebook.com/people/Addis-Maya-Playschool/61550663834708/",
   },
   {
     id: 2,
