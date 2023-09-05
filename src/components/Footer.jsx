@@ -30,11 +30,15 @@ const Footer = () => {
                 Lideta SubCity, Addis Ababa, Ethiopia
               </p>
 
-              <p className="flex items-center gap-2">
-                <AiFillPhone /> +2519 0692 9258
-              </p>
+              <div className="flex items-center gap-2 my-1">
+                <AiFillPhone />{" "}
+                <div>
+                  <p>+2519 0692 9258</p>
+                  <p>+2519 0683 9358</p>
+                </div>
+              </div>
 
-              <p className="flex items-center gap-2">
+              <p className="flex items-center gap-2 mb-1">
                 <AiTwotoneMail /> info@addis-maya.com
               </p>
 
@@ -77,7 +81,7 @@ const Footer = () => {
                   className="w-[100px] h-[70px] rounded-xl"
                 />
                 <img
-                  src="/footer2.jpeg"
+                  src="/gallery2.jpeg"
                   alt="footer"
                   className="w-[100px] h-[70px] rounded-xl"
                 />

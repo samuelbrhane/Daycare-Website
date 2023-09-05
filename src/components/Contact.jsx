@@ -46,6 +46,7 @@ const Contact = () => {
             <div className="flex flex-col items-center gap-3">
               <AiFillPhone className="text-[#f38600] p-6 w-28 h-28 rounded-full bg-[#27980b47] " />
               <p>+2519 0692 9258</p>
+              <p>+2519 0683 9358</p>
             </div>
           </div>
         </div>

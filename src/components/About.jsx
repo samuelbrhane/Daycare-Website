@@ -35,7 +35,7 @@ const About = () => {
           <p className="mb-[17px] text-[14px] lg:text-[16px]">
             Furthermore, they have both earned master&apos;s degrees in project
             management and business administration from Addis Ababa and Lincoln
-            University, Oakland, California. Both moms themselves, they share a
+            University, Oakland, California. Both moms themselves, share a
             strong passion to helping children explore and thrive. They have a
             great commitment to employing diverse and effective teaching
             methodologies. Their approaches prioritize hands-on learning,
