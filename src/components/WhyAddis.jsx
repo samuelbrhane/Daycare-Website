@@ -51,12 +51,7 @@ const WhyAddis = () => {
                 &#x2713;{" "}
                 <span className="text-black">Trained in child protection</span>
               </p>
-              <p className="text-[#4ce049]">
-                &#x2713;{" "}
-                <span className="text-black">
-                  1:3 & 1:5 teacher student ratio
-                </span>
-              </p>
+
               <p className="text-[#4ce049]">
                 &#x2713;{" "}
                 <span className="text-black">Trained in CPR and first aid</span>

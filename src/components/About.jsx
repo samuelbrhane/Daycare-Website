@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 const About = () => {
   return (
     <section
-      id="About Us"
+      id="About The Owners"
       className="px-4 md:px-12 lg:px-16 xl:px-20 pt-8 md:pt-12 lg:pt-20 xl:pt-28 relative"
     >
       <img
@@ -22,7 +22,7 @@ const About = () => {
           }}
         >
           <h1 className="text-[#f38600] title">
-            About <span className="text-black">Us</span>
+            About <span className="text-black">The Owners</span>
           </h1>
           <p className="mb-[17px] text-[14px] lg:text-[16px]">
             Addis MAYA playschool is established by a passionate duo, Sewbesew
@@ -30,16 +30,17 @@ const About = () => {
             experience in school operations at the International Community
             School of Addis Ababa (ICS Addis) and hold certifications in
             Montessori, Reggio Emilia early year&apos;s curriculums, and Asian
-            preschool management.
+            College of Teachers (ACT).
           </p>
           <p className="mb-[17px] text-[14px] lg:text-[16px]">
             Furthermore, they have both earned master&apos;s degrees in project
             management and business administration from Addis Ababa and Lincoln
-            University. Both moms themselves, they share a strong passion to
-            helping children explore and thrive. they have a great commitment to
-            employing diverse and effective teaching methodologies. Their
-            approaches prioritize hands-on learning, individualized instruction,
-            and creating a stimulating environment for young learners.
+            University, Oakland, California. Both moms themselves, they share a
+            strong passion to helping children explore and thrive. they have a
+            great commitment to employing diverse and effective teaching
+            methodologies. Their approaches prioritize hands-on learning,
+            individualized instruction, and creating a stimulating environment
+            for young learners.
           </p>
           <p className="mb-4 text-[14px] lg:text-[16px]">
             By combining their extensive experience in school operations,

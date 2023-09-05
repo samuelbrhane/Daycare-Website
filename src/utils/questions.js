@@ -1,12 +1,11 @@
 export const faq = [
   {
     question: "What are your operating hours?",
-    answer:
-      "Our daycare and preschool is open from 7:30 AM to 6:00 PM, Monday to Friday.",
+    answer: "Our playschool is open from 7:30AM to 6:00PM, Monday to Friday.",
   },
   {
     question: "What age groups do you cater to?",
-    answer: "We provide care for children between the ages of 1 - 5 years.",
+    answer: "We provide care for children between the ages of 1 - 4 years.",
   },
   {
     question: "Is your facility licensed and insured?",
@@ -26,7 +25,7 @@ export const faq = [
   {
     question: "How do you ensure the safety of the children?",
     answer:
-      "We maintain a secure and child-friendly environment with experienced staff members trained in CPR, first aid, and emergency protocols. We also have strict safety measures in place and regular safety checks.",
+      "We maintain a secure and child-friendly environment with safety measures in place and regular safety checks.Our staff members are trained in CPR, First aid, Child Protection and different emergency protocols.",
   },
   {
     question: "What is your staff-to-child ratio?",

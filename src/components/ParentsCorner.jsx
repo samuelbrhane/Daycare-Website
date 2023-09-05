@@ -22,9 +22,8 @@ const ParentsCorner = () => {
               Parents <span className="text-black">Corner</span>
             </h1>
             <p className="text-[15px] lg:text-[16px] mb-4 text-center max-w-[700px]">
-              Explore our Parents Corner for frequently asked questions,
-              heartfelt testimonials, and captivating images showcasing the
-              vibrant experiences at our playschool.
+              Explore our parents corner for frequently asked questions and
+              captivating images.
             </p>
           </div>
         </motion.div>

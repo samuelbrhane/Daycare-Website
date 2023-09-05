@@ -120,7 +120,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="border-t-2 border-[#a234a3] mt-4 border-dotted">
+        <div className="border-t-2 border-[#f38600] mt-4 border-dotted">
           <p className="mt-4 md:mt-6">Copyright 2023 Addis-Maya Playschool.</p>
           <p>All Rights Reserved.</p>
         </div>

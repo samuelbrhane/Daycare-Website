@@ -20,22 +20,21 @@ const ProgramContent = () => {
           Our <span className="text-black">Programs</span>
         </h1>
         <p className="mb-4 text-[14px] lg:text-[16px]">
-          We offer a unique learning environment and innovative curricula for
-          toddlers and pre-schoolers from ages 1 to 5. Our program is a 5
-          days-per-week, 5 or 6 hours per day program, focusing on sensory and
-          social development through art, sports, music, science, language, and
-          math to support each student as he or she develops confidence in
-          learning. Our classes are taught in a fun, caring, nurturing, positive
-          and clean environment.
+          We offer a unique learning environment and innovative carriculem for
+          toddlers and preschoolers from ages 1 to 4. Our programs are 5, 3, 2
+          days-per-week, including full and half days program, focusing on
+          sensory and social development through art, sports, music, science,
+          language, and math to support each student as he or she develops
+          confidence in learning. Our classes are taught in a fun, caring,
+          nurturing, positive and clean environment.
         </p>
         <p className="mt-2 mb-4 text-[14px] lg:text-[16px]">
           Our innovative curriculum builds beyond the fundamentals as teachers
           encourage interactive literacy and make connection that strengthen
           social and intellectual learning through physical science, social
-          studies, gymnastics, dance and art. Our doors are open from 7am
-          through 6pm. We also offer trainings to other day cares on our methods
-          and general child protection. We use a 360° approach by training
-          caretakers, children, and parents.
+          studies, gymnastics, dance and art. Our doors are open from 7:30 am
+          through 6 pm. We use a 360° approach by training caretakers, children,
+          and parents.
         </p>
         <p className="font-bold text-3xl mb-2 italic font-[Lora]">
           We offer a balance of freedom and instruction.
@@ -88,8 +87,8 @@ const ProgramContent = () => {
               </h1>
               <div className="w-full h-[6px] rounded bg-gradient-to-r from-[#f38600]  to-transparent via-[#28980b]" />
               <p className="mt-4">
-                Developing the critical thinking and problem-solving skills they
-                will need to succeed in school.
+                Develop critical thinking and problem solving skills, improve
+                cognitive & social development skills.
               </p>
             </div>
           </div>

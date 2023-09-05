@@ -64,7 +64,7 @@ const ContactForm = () => {
           <label htmlFor="parentPhone">Parent&apos;s Phone</label>
           <input
             id="parentPhone"
-            type="text"
+            type="tel"
             required
             placeholder="Parent's Phone"
             className="input"

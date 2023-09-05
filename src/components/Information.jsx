@@ -19,7 +19,7 @@ const Information = () => {
             </h1>
             <p className="text-[15px] lg:text-[16px] mb-4 text-center max-w-[700px]">
               Our playschool facility offers a nurturing and enriching
-              environment for your child&apos; early development. With spacious
+              environment for your child&apos;s early development. With spacious
               classrooms, well-equipped play areas, and experienced staff, we
               provide a safe and engaging experience.
             </p>

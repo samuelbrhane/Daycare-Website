@@ -10,7 +10,7 @@ export const schedules = [
   },
   {
     name: "Preschoolers",
-    age: "2 - 5 years",
+    age: "2 - 4 years",
     option1: "7:30 AM - 6:00 PM",
     image: "/pre-school.jpg",
     color: "text-[#f38600]",

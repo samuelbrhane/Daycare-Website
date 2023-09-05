@@ -18,7 +18,11 @@ export default function Home() {
     <>
       <Head>
         <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+          rel="preconnect"
+          href="https://fonts.gstatic.com"
+          crossOrigin="true"
+        />
         <link
           rel="stylesheet"
           href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
@@ -32,10 +36,37 @@ export default function Home() {
           src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
         ></script>
 
-        <title>Daycare Website</title>
-        <meta name="description" content="Daycare" />
+        <title>Addis-Maya Playschool</title>
+        <meta
+          name="description"
+          content="Welcome to Addis-Maya Playschool. We provide quality early childhood education."
+        />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
+
+        {/* Open Graph and Twitter Card tags for social sharing */}
+        <meta property="og:title" content="Addis-Maya Playschool" />
+        <meta
+          property="og:description"
+          content="Welcome to Addis-Maya Playschool. We provide quality early childhood education."
+        />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://www.addis-maya.com" />
+        <meta
+          property="og:image"
+          content="https://www.addis-maya.com/main-logo.jpeg"
+        />
+
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content="Addis-Maya Playschool" />
+        <meta
+          name="twitter:description"
+          content="Welcome to Addis-Maya Playschool. We provide quality early childhood education."
+        />
+        <meta
+          name="twitter:image"
+          content="https://www.addis-maya.com/main-logo.jpeg"
+        />
       </Head>
       <main className="overflow-hidden">
         <Header />
@@ -43,7 +74,6 @@ export default function Home() {
         <About />
         <Program />
         <Information />
-
         <ParentsCorner />
         <Contact />
         <Footer />
