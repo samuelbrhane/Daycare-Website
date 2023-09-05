@@ -117,15 +117,20 @@ const WhyAddis = () => {
               <h1 className="text-gray-600 text-2xl mb-4">
                 HEALTHY AND TASTY FOOD FOR YOUR LITTLE ONE.
               </h1>
+
               <p className="text-[#4ce049]">
-                &#x2713;{" "}
-                <span className="text-black">
-                  Nutritionally balanced & delicious
-                </span>{" "}
+                &#x2713; <span className="text-black">Dietitian guided</span>{" "}
               </p>
               <p className="text-[#4ce049]">
                 &#x2713;{" "}
-                <span className="text-black">Breakfast & snacks included</span>
+                <span className="text-black">Nutritionally balanced</span>{" "}
+              </p>
+              <p className="text-[#4ce049]">
+                &#x2713;{" "}
+                <span className="text-black">
+                  Vegetarian option, Gluten free option and limited surger
+                  option.{" "}
+                </span>
               </p>
 
               <p className="text-[#4ce049]">
