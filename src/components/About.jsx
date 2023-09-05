@@ -12,7 +12,7 @@ const About = () => {
         alt="bg"
         className="absolute top-[-35px] md:top-[-70px] lg:top-[-60px] xl:top-[-70px] 2xl:top-[-65px] left-0 right-0 w-full"
       />
-      <div className="grid grid-cols-1 2xl:grid-cols-2 gap-8 md:gap-12 xl:gap-16 w-full ">
+      <div className="grid grid-cols-1 2xl:grid-cols-2 gap-8 md:gap-12 xl:gap-16 w-full font-[Lora]">
         <motion.div
           className="relative"
           initial={{ left: -50 }}
