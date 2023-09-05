@@ -20,12 +20,12 @@ export const socials = [
     id: 1,
     name: "facebook",
     icon: <BsFacebook />,
-    link: "https://www.facebook.com",
+    link: "https://www.facebook.com/profile.php?id=61551049106198",
   },
   {
     id: 2,
     name: "twitter",
     icon: <AiFillTwitterCircle />,
-    link: "https://www.twitter.com",
+    link: "https://www.twitter.com/1addismaya",
   },
 ];

@@ -29,14 +29,14 @@ const About = () => {
             Tadele and Yamrot Kassa. They possess more than 12 years of
             experience in school operations at the International Community
             School of Addis Ababa (ICS Addis) and hold certifications in
-            Montessori, Reggio Emilia early year&apos;s curriculums, and Asian
+            Montessori, Reggio Emilia early year&apos;s curriculum, and Asian
             College of Teachers (ACT).
           </p>
           <p className="mb-[17px] text-[14px] lg:text-[16px]">
             Furthermore, they have both earned master&apos;s degrees in project
             management and business administration from Addis Ababa and Lincoln
             University, Oakland, California. Both moms themselves, they share a
-            strong passion to helping children explore and thrive. they have a
+            strong passion to helping children explore and thrive. They have a
             great commitment to employing diverse and effective teaching
             methodologies. Their approaches prioritize hands-on learning,
             individualized instruction, and creating a stimulating environment
