@@ -25,7 +25,7 @@ const Schedules = () => {
           </p>
         </motion.div>
       </div>
-      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-12 px-4 md:px-12 lg:px-16 xl:px-20">
+      <div className="grid grid-cols-1 md:grid-cols-2 md:gap-12 px-4 md:px-12 lg:px-16 xl:px-20 pb-12">
         {schedules.map((schedule, index) => {
           return (
             <div

@@ -15,6 +15,6 @@ export const schedules = [
     image: "/pre-school.jpg",
     color: "text-[#f38600]",
     description:
-      "Our preschool program is designed to prepare children for kindergarten and beyond.",
+      "Our preschool program is aimed to help children in developing skills such as following instructions, sharing, self-awareness, understanding their surroundings, and help them to get ready for kindergarten.",
   },
 ];

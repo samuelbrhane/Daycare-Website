@@ -83,21 +83,14 @@ const WhyAddis = () => {
               </h1>
               <p className="text-[#4ce049]">
                 &#x2713;{" "}
-                <span className="text-black">
-                  Highly skilled and trained in early childhood care.
-                </span>
+                <span className="text-black">Project based approach</span>
               </p>
               <p className="text-[#4ce049]">
-                &#x2713;{" "}
-                <span className="text-black">
-                  Multiple levels of education and certification
-                </span>{" "}
-              </p>
-              <p className="text-[#4ce049]">
-                &#x2713;{" "}
-                <span className="text-black">
-                  Engage in a variety of educational and creative pursuits.
-                </span>
+                &#x2713; <span className="text-black">Mixed curriculum</span>{" "}
+                <br />
+                <span className="text-black ml-6">75% Montessori</span>
+                <br />
+                <span className="text-black ml-6">25% Reggio Emilia</span>
               </p>
             </div>
           </div>
