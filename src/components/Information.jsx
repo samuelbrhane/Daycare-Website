@@ -3,7 +3,7 @@ import { Classes, Facilities, Schedules } from ".";
 
 const Information = () => {
   return (
-    <section id="Visit" className="relative">
+    <section id="Visit" className="relative font-[Lora]">
       <img
         src="/blog-divider.png"
         alt="bg"

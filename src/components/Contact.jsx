@@ -8,7 +8,7 @@ const Contact = () => {
   return (
     <section
       id="Contact Us"
-      className="px-4 md:px-12 lg:px-16 xl:px-20 pt-8 md:pt-12 lg:pt-20 xl:pt-28"
+      className="px-4 md:px-12 lg:px-16 xl:px-20 pt-8 md:pt-12 lg:pt-20 xl:pt-28 font-[Lora]"
     >
       <motion.div
         initial={{ bottom: -50 }}

@@ -6,7 +6,7 @@ import { BsDot } from "react-icons/bs";
 
 const ProgramContent = () => {
   return (
-    <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 xl:gap-20 2xl:gap-28 w-full px-4 md:px-12 lg:px-16 xl:px-20 py-12 md:py-20 lg:py-32 xl:py-36">
+    <div className="font-[Lora] grid grid-cols-1 lg:grid-cols-2 gap-8 md:gap-16 xl:gap-20 2xl:gap-28 w-full px-4 md:px-12 lg:px-16 xl:px-20 py-12 md:py-20 lg:py-32 xl:py-36">
       {/* program content */}
       <motion.div
         className="relative"
@@ -36,12 +36,12 @@ const ProgramContent = () => {
           through 6 pm. We use a 360° approach by training caretakers, children,
           and parents.
         </p>
-        <p className="font-bold text-3xl mb-2 italic font-[Lora]">
+        <p className="font-bold text-3xl mb-2 font-[Lora]">
           We offer a balance of freedom and instruction.
         </p>
 
         {/* description */}
-        <div className="font-[Lora]">
+        <div className="font-[Lora] text-[14px] lg:text-[16px]">
           <p className="flex gap-2">
             In the Preschool program, your child builds skills vital to success
             in kindergarten, but also gains respect for others, and a strong
@@ -72,7 +72,7 @@ const ProgramContent = () => {
                 TODDLERS
               </h1>
               <div className="w-full h-[6px] rounded bg-gradient-to-r from-[#f38600]  to-transparent via-[#28980b]" />
-              <p className="mt-4">
+              <p className="mt-4 font-[Lora]">
                 Introduction to play, creative arts, language development &
                 sensory exploration.
               </p>

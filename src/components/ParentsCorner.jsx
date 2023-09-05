@@ -6,7 +6,7 @@ const ParentsCorner = () => {
   return (
     <section
       id="Parents Corner"
-      className="relative pt-12 md:pt-20 lg:pt-32 xl:pt-36 "
+      className="relative pt-12 md:pt-20 lg:pt-32 xl:pt-36 font-[Lora]"
     >
       <div>
         <motion.div
@@ -21,7 +21,7 @@ const ParentsCorner = () => {
             <h1 className="text-[#f38600] title text-center md:px-20 lg:px-40 xl:px-56">
               Parents <span className="text-black">Corner</span>
             </h1>
-            <p className="text-[15px] lg:text-[16px] mb-4 text-center max-w-[700px]">
+            <p className="text-[15px] lg:text-[16px] mb-4 text-center max-w-[700px] font-[Lora]">
               Explore our parents corner for frequently asked questions and
               captivating images.
             </p>

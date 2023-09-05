@@ -9,7 +9,7 @@ const Header = () => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   return (
     <section>
-      <div className="fixed top-0 left-0 w-full bg-white px-4 md:px-12 lg:px-16 xl:px-20 py-2 shadow-md flex justify-between items-center z-50">
+      <div className="font-[Lora] fixed top-0 left-0 w-full bg-white px-4 md:px-12 lg:px-16 xl:px-20 py-2 shadow-md flex justify-between items-center z-50">
         {/* header logo */}
         <div className="relative w-[160px] h-[90px] xl:w-[220px] xl:h-[160px] ">
           <img src="/logo-bg.png" alt="logo-bg" className="w-full h-full" />
@@ -30,7 +30,7 @@ const Header = () => {
                 to={link.title}
                 className="link"
               >
-                <p>{link.title}</p>
+                <p className="font-[Lora]">{link.title}</p>
                 <img src={link.image} alt="link" className="linkImage" />
               </Link>
             </div>
