@@ -7,7 +7,7 @@ import { Link } from "react-scroll";
 
 const Footer = () => {
   return (
-    <div className="font-[Lora] mt-6 md:mt-8 xl:mt-12 relative bg-[url('/addis4.jpeg')] bg-cover bg-center h-[680px] md:h-[410px] 2xl:h-[400px] text-white bg-no-repeat">
+    <div className="font-[Lora] mt-6 md:mt-8 xl:mt-12 relative bg-[url('/addis4.jpeg')] bg-cover bg-center h-[700px] md:h-[430px] 2xl:h-[410px] text-white bg-no-repeat">
       <div className="absolute top-0 left-0 bottom-0 w-full px-4 md:px-12 lg:px-16 xl:px-20 bg-[#041210da] py-4 md:py-8">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
           <div className="flex justify-center">
