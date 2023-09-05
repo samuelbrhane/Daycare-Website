@@ -20,7 +20,7 @@ const ProgramContent = () => {
           Our <span className="text-black">Programs</span>
         </h1>
         <p className="mb-4 text-[14px] lg:text-[16px]">
-          We offer a unique learning environment and innovative carriculem for
+          We offer a unique learning environment and innovative curriculum for
           toddlers and preschoolers from ages 1 to 4. Our programs are 5, 3, 2
           days-per-week, including full and half days program, focusing on
           sensory and social development through art, sports, music, science,
