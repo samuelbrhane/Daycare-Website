@@ -17,7 +17,12 @@ const Hero = () => {
         </ol>
 
         <div className="carousel-inner h-[182px] md:h-[330px] lg:h-[430px] xl:h-[540px] 2xl:h-[590px]">
-          <div className="item active heroContainer relative">
+          <div className="item heroContainer active relative">
+            <Image src="/hero12.jpeg" fill alt="hero" className="heroImage" />
+            <HeroContent firstText="Agency-centric &" secondText="Reflective" />
+          </div>
+
+          <div className="item heroContainer">
             <Image src="/gallery1.jpeg" fill alt="hero" className="heroImage" />
             <HeroContent firstText="Inquiry &" secondText="Exploration" />
           </div>
@@ -30,11 +35,6 @@ const Hero = () => {
           <div className="item heroContainer">
             <Image src="/hero144.jpeg" fill alt="hero" className="heroImage" />
             <HeroContent firstText="Caring &" secondText="Communicator" />
-          </div>
-
-          <div className="item heroContainer">
-            <Image src="/hero12.jpeg" fill alt="hero" className="heroImage" />
-            <HeroContent firstText="Agency &" secondText="Reflective" />
           </div>
         </div>
 
