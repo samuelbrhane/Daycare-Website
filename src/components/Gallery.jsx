@@ -4,21 +4,19 @@ import Image from "next/image";
 import { motion } from "framer-motion";
 
 const images = [
-  // "/gallery111.jpeg",
-  // "/gallery2.jpeg",
-  // "/gallery3.jpeg",
-  // "/gallery4.jpeg",
-  // "/gallery5.jpeg",
-  // "/gallery6.jpeg",
-  // "/gallery7.jpeg",
   "/gallery8.jpeg",
   "/gallery9.jpeg",
-  // "/gallery10.jpeg",
-  // "/gallery11.jpeg",
   "/gallery12.jpeg",
   "/gallery13.jpeg",
   "/gallery14.jpeg",
-  // "/gallery15.jpeg",
+  "/footer1.jpeg",
+  "/footer3.jpeg",
+  "/footer4.jpeg",
+  "/footer5.jpeg",
+  "/footer6.jpeg",
+  "/footer7.jpeg",
+  "/footer8.jpeg",
+  "/footer9.jpeg",
 ];
 
 const Gallery = () => {

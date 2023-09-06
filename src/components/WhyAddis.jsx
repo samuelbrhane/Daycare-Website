@@ -128,7 +128,7 @@ const WhyAddis = () => {
               <p className="text-[#4ce049]">
                 &#x2713;{" "}
                 <span className="text-black">
-                  Vegetarian option, Gluten free option and limited surger
+                  Vegetarian option, Gluten free option and limited sugar
                   option.{" "}
                 </span>
               </p>

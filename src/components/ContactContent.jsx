@@ -20,7 +20,7 @@ const ContactContent = () => {
 
         <span>
           In order to enroll your child at our playschool, please download, fill
-          in, and bring the enrollment form PDF attached to this contact form.{" "}
+          out and send the pdf form to info@addis-maya.com.{" "}
         </span>
         <a
           href="/admission.pdf"
