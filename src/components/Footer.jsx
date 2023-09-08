@@ -81,7 +81,7 @@ const Footer = () => {
                   className="w-[100px] h-[70px] rounded-xl"
                 />
                 <img
-                  src="/gallery2.jpeg"
+                  src="/addis55.jpeg"
                   alt="footer"
                   className="w-[100px] h-[70px] rounded-xl"
                 />

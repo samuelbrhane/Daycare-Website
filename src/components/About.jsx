@@ -61,7 +61,7 @@ const About = () => {
           }}
         >
           <img
-            src="/addis5.jpeg"
+            src="/addis55.jpeg"
             alt="program"
             className="w-full h-full rounded"
           />
