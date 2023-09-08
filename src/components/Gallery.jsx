@@ -17,6 +17,7 @@ const images = [
   "/footer7.jpeg",
   "/footer8.jpeg",
   "/footer9.jpeg",
+  "/hero1111.jpeg",
 ];
 
 const Gallery = () => {
